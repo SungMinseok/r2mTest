@@ -19,36 +19,45 @@ def format_stats_ingame(input_str):
     """
     # split the input string by lines
     lines = input_str.strip().split('\n')
-    
+
     # initialize an empty list to hold the final result
     result_list = []
-    
+
     for line in lines:
-        line = line.replace('(', '').replace(')', '')
-        values = line.strip().split('+')
-        total = 0
-        for value in values:
-            try:
-                total += int(value.strip())
-            except:
-                continue
+        
+        if '(' in line :
+            line = line.replace('(', '').replace(')', '')
+            values = line.strip().split('+')
+            total = 0
+            for value in values:
+                try:
+                    total += int(value.strip())
+                except:
+                    continue
+
+        else : 
+            values = line.strip().split('+')
+            if '%' in values[1] :
+                total = values[1].replace('%','')
+            else :
+                total = values[1]
+
         result_list.append(total)
-    
+
     return '/'.join(str(x) for x in result_list)
 
-
-input_file_path = 'input.txt'
-with open(input_file_path, encoding='utf-8') as f:
-    input_str = f.read()
+# input_file_path = 'input.txt'
+# with open(input_file_path, encoding='utf-8') as f:
+#     input_str = f.read()
 
     
-result = format_stats(input_str)
+# result = format_stats(input_str)
 
 
-with open('output.txt', 'w') as f:
-    f.write(result)
+# with open('output.txt', 'w') as f:
+#     f.write(result)
 
-
+input_str = "+20(+5)\n+22(+4)\n+3.25%\n+2\n+1"
 
 result = format_stats_ingame(input_str.strip())
 print(result)  # output: 30.0/40.0/17.0/3.0/3.0
