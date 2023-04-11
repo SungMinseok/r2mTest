@@ -3,7 +3,28 @@ from tqdm import tqdm
 
 def sort_values(input_str):
     
-    rules = ["물리공격", "마법공격", "공속", "물리명중", "마법명중", "힘", "민첩", "지능", "HP","HP회복","MP " ,"MP회복"]
+    rules = ["물리방어",
+             "마법방어",
+             "물리공격", 
+             "마법공격",
+             "물리피해감소",
+             "마법피해감소",
+             "이속",
+             "추가무게", 
+             "포션회복률",
+             "공속", 
+             "물리명중", 
+             "마법명중",
+             "힘", 
+             "민첩", 
+             "HP",
+             "HP회복",
+             "치명타회피"
+             "치명회피"
+             "MP" ,
+             "MP회복",
+             "지능" 
+             ]
     lines = input_str.strip().split('\n')
     sorted_lines = []
 
@@ -28,7 +49,7 @@ def sort_values(input_str):
     return '\n'.join(sorted_lines)
 
 
-with open('input_sort_values.txt', 'r', encoding='utf-8') as f:
+with open('날것의기획능력치.txt', 'r', encoding='utf-8') as f:
     input_str = f.read()
 
 #input_str = "물리공격21/HP30/물리명중17/공속2.35%/[PVP슬레인]물리명중2"
@@ -38,5 +59,5 @@ output_str = sort_values(input_str)
 #print(input_str)
 #print(output_str)
 
-with open('output_sort_values.txt', 'w', encoding='utf-8') as f:
+with open('정렬된기획능력치.txt', 'w', encoding='utf-8') as f:
     f.write(output_str)

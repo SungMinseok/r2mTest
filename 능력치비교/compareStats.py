@@ -15,19 +15,20 @@
 
 
 import pandas as pd
+from tqdm import tqdm
 
 # read the files
-with open('ingame.txt', 'r') as f:
+with open('인게임능력치_숫자만.txt', 'r', encoding='cp949') as f:
     ingame_lines = f.readlines()
 
-with open('output.txt', 'r') as f:
+with open('정렬된기획능력치_숫자만.txt', 'r', encoding='cp949') as f:
     output_lines = f.readlines()
 
 # initialize the data to be written to Excel
 data = {'ID': [], 'ingame': [], 'output': [], 'result': []}
 
 # process each line
-for output_line in output_lines:
+for output_line in tqdm(output_lines):
     # get the ID from the output line
     output_id = output_line.split('/')[0]
 
