@@ -1,7 +1,9 @@
 import re
 from tqdm import tqdm
 
-def sort_values(input_str):
+def sort_values(input_str : str):
+    input_str = input_str.replace('+','')
+    input_str = input_str.replace(' ','')
     
     rules = ["물리방어",
              "마법방어",
@@ -15,10 +17,12 @@ def sort_values(input_str):
              "공속", 
              "물리명중", 
              "마법명중",
+             "치명타확률",
+             "치명타공격력"
              "힘", 
-             "민첩", 
              "HP",
              "HP회복",
+             "민첩", 
              "치명타회피"
              "치명회피"
              "MP" ,
