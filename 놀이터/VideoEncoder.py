@@ -1,4 +1,5 @@
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -146,20 +147,20 @@ class Ui_MainWindow(object):
         self.label_4.setStyleSheet("font: bold;font-color:(255,255,255)")
         self.label_4.setObjectName("label_4")
         self.horizontalLayout_8.addWidget(self.label_4)
-        self.input_resultpath_2 = QtWidgets.QLineEdit(self.layoutWidget_3)
+        self.input_resultname = QtWidgets.QLineEdit(self.layoutWidget_3)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.input_resultpath_2.sizePolicy().hasHeightForWidth())
-        self.input_resultpath_2.setSizePolicy(sizePolicy)
-        self.input_resultpath_2.setMinimumSize(QtCore.QSize(0, 23))
-        self.input_resultpath_2.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        sizePolicy.setHeightForWidth(self.input_resultname.sizePolicy().hasHeightForWidth())
+        self.input_resultname.setSizePolicy(sizePolicy)
+        self.input_resultname.setMinimumSize(QtCore.QSize(0, 23))
+        self.input_resultname.setMaximumSize(QtCore.QSize(16777215, 16777215))
         font = QtGui.QFont()
         font.setPointSize(9)
-        self.input_resultpath_2.setFont(font)
-        self.input_resultpath_2.setPlaceholderText("")
-        self.input_resultpath_2.setObjectName("input_resultpath_2")
-        self.horizontalLayout_8.addWidget(self.input_resultpath_2)
+        self.input_resultname.setFont(font)
+        self.input_resultname.setPlaceholderText("")
+        self.input_resultname.setObjectName("input_resultname")
+        self.horizontalLayout_8.addWidget(self.input_resultname)
         self.layoutWidget_4 = QtWidgets.QWidget(self.centralwidget)
         self.layoutWidget_4.setGeometry(QtCore.QRect(10, 150, 401, 31))
         self.layoutWidget_4.setObjectName("layoutWidget_4")
@@ -274,7 +275,15 @@ class Ui_MainWindow(object):
 
 
 
+
+
 #region ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■유지부
+
+        '''디폴트값설정'''
+        self.input_startsec.setText("0")
+        self.input_endsec.setText("0")
+
+
         
         self.btn_datapath.clicked.connect(self.select_input_file)
         self.input_datapath.setAcceptDrops(True)
@@ -301,7 +310,7 @@ class Ui_MainWindow(object):
         options |= QFileDialog.DontUseNativeDialog
         directory_path = QFileDialog.getExistingDirectory(MainWindow, "Select Directory", "", options=options)
         if directory_path:
-            self.input_datapath_2.setText(f'{directory_path}/')
+            self.input_resultpath.setText(f'{directory_path}/')
 
     def drag_enter_event(self, event):
         # 드래그앤드랍 가능한 MIME 타입인지 체크
@@ -315,12 +324,25 @@ class Ui_MainWindow(object):
         urls = event.mimeData().urls()
         file_path = urls[0].toLocalFile()
         self.input_datapath.setText(file_path)
+        self.get_video_info()
+
+    #230525
+    def get_video_info(self):
+        video_path = self.input_datapath.text()
+        if video_path == "" :
+            return
+        video_info = sv.get_videoinfo(video_path)
+        
+        self.input_endsec.setText(str(video_info.duration))
 
     def activate(self):
         input_filename = self.input_datapath.text()
-        output_path =  self.input_resultpath_2.text()
+        output_path =  self.input_resultpath.text()
+        start_sec = float(self.input_startsec.text())
+        end_sec = float(self.input_endsec.text())
         
-        tempname = self.input_resultpath_2.text()
+        tempname = self.input_resultname.text()
+
         if tempname == "":
             tempname = "result"
         
@@ -328,7 +350,7 @@ class Ui_MainWindow(object):
 
         #if self.combox_contents.currentText() == "유료상점" and self.combox_doctype.currentText() == "CL" :
         try:
-            sv.compress_video(input_filename,f'{output_filename}',start_time=0, end_time=16, bitrate="1500k")
+            sv.compress_video(input_filename,f'{output_filename}',start_time=start_sec, end_time=end_sec, bitrate="1500k")
         except Exception as e:
             print(e)
 
