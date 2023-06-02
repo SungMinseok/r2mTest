@@ -278,11 +278,32 @@ class Ui_MainWindow(object):
 
 
 #region ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■유지부
+        '''디폴트값설정_텍스트파일'''
+        config = {}
 
-        '''디폴트값설정'''
+        # 텍스트 파일 읽기
+        with open('config.txt', 'r') as file:
+            lines = file.readlines()
+
+        # 변수에 저장
+        for line in lines:
+            line = line.strip()  # 공백 및 개행문자 제거
+            key, value = line.split('=')
+            config[key] = value
+
+        # 저장된 변수 출력 (예시)
+        # print("Save Folder:", config['save_folder'])
+        # print("Default Bitrate:", config['default_bitrate'])
+        # print("Open After Done:", config['open_after_done'])
+
+
         self.input_startsec.setText("0")
         self.input_endsec.setText("0")
 
+        self.input_bitrate.setText(config['bitrate'])
+        self.input_resultpath.setText(config['save_folder'])
+
+        #〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
 
         
         self.btn_datapath.clicked.connect(self.select_input_file)
@@ -334,6 +355,11 @@ class Ui_MainWindow(object):
         video_info = sv.get_videoinfo(video_path)
         
         self.input_endsec.setText(str(video_info.duration))
+
+    #230531
+    def print_log(self, log):
+        self.progressLabel.setText(log)
+        QApplication.processEvents()
 
     def activate(self):
         input_filename = self.input_datapath.text()
