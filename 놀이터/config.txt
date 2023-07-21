@@ -1,3 +1,0 @@
-save_folder=D:/R2M_VIDEOS/
-bitrate=1500
-open_after_done=True
