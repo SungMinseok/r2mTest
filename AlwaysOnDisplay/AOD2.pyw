@@ -47,7 +47,7 @@ class AlwaysOnTopWindow(QWidget):
         #     # ('그림판OFF', ['D:\\BatFile\\kill_mspaint.bat'])
         # ]
 
-        self.setGeometry(1920,1050, 80*len(buttons_info), 30)
+        self.setGeometry(1920,1050, 81*len(buttons_info), 30)
 
         # layout = QGridLayout()
         # layout.setSpacing(0)
@@ -70,13 +70,26 @@ class AlwaysOnTopWindow(QWidget):
         # self.setLayout(layout)
         
 
+# 초월: 253,179,0
+# 전설: 255,0,0
+# 영웅: 179,67,217
+# 희귀:14,155,217
+# 고급:98,197,177
+# 일반:178,178,178
 
         for i, (button_text, file_path) in enumerate(buttons_info):
             button = QPushButton(button_text, self)
             #button.setStyleSheet("background-color: rgb(47, 117, 181);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            button.setStyleSheet("background-color: rgb(14, 155, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            if i == 4 :
+            button.setStyleSheet("background-color: rgb(178, 178, 178);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            #button.setStyleSheet("color: rgb(14, 155, 217);font: bold")
+            if i == 0 :
                 button.setStyleSheet("background-color: rgb(255, 0, 0);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            elif i >= 5 and i <= 7 :
+                button.setStyleSheet("background-color: rgb(98, 197, 177);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            elif i >= 8 and i <= 8 :
+                button.setStyleSheet("background-color: rgb(14, 155, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            elif i >= 9 and i <= 9 :
+                button.setStyleSheet("background-color: rgb(179, 67, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
             button.setGeometry(81 * i , 0, 80, 30)
             button.clicked.connect(lambda _, path=file_path: self.run_file(path))
 

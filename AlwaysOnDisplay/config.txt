@@ -1,8 +1,10 @@
+!퇴근!,D:\BatFile\kill_chrome.bat,D:\BatFile\kill_excel.bat,D:\BatFile\kill_mspaint.bat,D:\BatFile\kill_outlook.bat,D:\BatFile\kill_powerpnt.bat,D:\BatFile\kill_word.bat,D:\BatFile\kill_messenger.bat,D:\BatFile\kill_teams.bat
 엑셀OFF,D:\BatFile\kill_excel.bat
 크롬OFF,D:\BatFile\kill_chrome.bat
 그림판OFF,D:\BatFile\kill_mspaint.bat
 아웃룩OFF,D:\BatFile\kill_outlook.bat
-!퇴근!,D:\BatFile\kill_chrome.bat,D:\BatFile\kill_excel.bat,D:\BatFile\kill_mspaint.bat,D:\BatFile\kill_outlook.bat,D:\BatFile\kill_powerpnt.bat,D:\BatFile\kill_word.bat,D:\BatFile\kill_messenger.bat,D:\BatFile\kill_teams.bat
 R2A,D:\R2A\R2A.py
 VideoEC,D:\파이썬프로젝트\r2mTest\비디오인코더\VideoEncoder.py
 RDM,C:\Users\mssung\OneDrive - Webzen Inc\R2M도구\유료상점CL생성기\RDM.py
+빌드다운,d:\Builds\빌드 다운로드.bat
+R2A_UI최신, c:\Users\mssung\OneDrive\Pyqt5\R2A(R2M_Auto)\UI업데이트.bat
