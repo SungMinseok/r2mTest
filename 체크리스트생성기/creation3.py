@@ -3,7 +3,11 @@ from xlsx_processing import *
 def merge_rows_by_category1(df):
     grouped_df = df.groupby('Category1').agg(lambda x: ' '.join(x)).reset_index()
     return grouped_df
+
 def create_checklist(input_file, output_file, criterion, required_parts):
+    '''
+    체크리스트생성
+    '''
     # Read the input Excel file into a Pandas DataFrame
     df = pd.read_excel(input_file)
     df = df.fillna(method='ffill')
@@ -40,7 +44,7 @@ def create_checklist(input_file, output_file, criterion, required_parts):
 if __name__ == "__main__":
     input_file = "insert.xlsx"
     output_file = "result.xlsx"
-    criterion = '도감 이름'
-    required_parts = 'all'#[('아이템 명', '아이템 ID'), '등록 성공 확률']
+    criterion = '몬스터 이름'
+    required_parts = 'all'#[('능력치', '수치'), '등록 성공 확률']
 
     create_checklist(input_file, output_file, criterion, required_parts)
