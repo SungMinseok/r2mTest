@@ -24,11 +24,11 @@ def format_stats_ingame(input_str):
     result_list = []
 
     for line in lines:
+        total = 0
         
         if '(' in line :
             line = line.replace('(', '').replace(')', '')
             values = line.strip().split('+')
-            total = 0
             for value in values:
                 try:
                     total += int(value.strip())
