@@ -102,6 +102,7 @@ def postprocess_cashshop(xlFileName):
     wb.save(xlFileName)
 
 
+
 def postprocess_cashshop(xlFileName):
     wb = xl.load_workbook(xlFileName,data_only = True)
     sheetList = wb.sheetnames
@@ -194,7 +195,8 @@ def postprocess_cashshop(xlFileName):
 
 
     #예외 마지막 셀병합
-    ws.merge_cells("B"+str(startRow_B)+":B"+str(lastRow))
+    ws.merge_cells("A"+str(startRow_B)+":A"+str(lastRow))
+    #ws.merge_cells("B"+str(startRow_B)+":B"+str(lastRow))
     #ws.merge_cells("C"+str(startRow_C)+":C"+str(lastRow))
     #ws.merge_cells("D"+str(startRow_D)+":D"+str(lastRow))
 
