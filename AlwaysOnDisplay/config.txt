@@ -8,3 +8,5 @@ VideoEC,D:\파이썬프로젝트\r2mTest\비디오인코더\VideoEncoder.py
 RDM,C:\Users\mssung\OneDrive - Webzen Inc\R2M도구\유료상점CL생성기\RDM.py
 빌드다운,d:\Builds\빌드 다운로드.bat
 R2A_UI최신, c:\Users\mssung\OneDrive\Pyqt5\R2A(R2M_Auto)\UI업데이트.bat
+R2A업로드,D:\BatFile\R2A_Upload.bat
+R2M도구폴더,C:\Users\mssung\OneDrive - Webzen Inc\R2M도구\유료상점CL생성기

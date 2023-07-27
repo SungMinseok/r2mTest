@@ -1,5 +1,7 @@
 import pandas as pd
 from xlsx_processing import *
+import os
+import time 
 def merge_rows_by_category1(df):
     grouped_df = df.groupby('Category1').agg(lambda x: ' '.join(x)).reset_index()
     return grouped_df
@@ -40,11 +42,13 @@ def create_checklist(input_file, output_file, criterion, required_parts):
     result_df.to_excel(output_file, index=False)
 
     postprocess_cashshop(output_file)
+
+    os.startfile(output_file)
 # Example usage:
 if __name__ == "__main__":
     input_file = "insert.xlsx"
-    output_file = "result.xlsx"
-    criterion = '몬스터 이름'
-    required_parts = 'all'#[('능력치', '수치'), '등록 성공 확률']
+    output_file = f"result{time.strftime('_%y%m%d_%H%M%S')}.xlsx"
+    criterion = 'PkgName'
+    required_parts = 'all'#['미믹 코인','대성공1', '대성공2', '대성공3']#[('능력치', '수치'), '등록 성공 확률']
 
     create_checklist(input_file, output_file, criterion, required_parts)
