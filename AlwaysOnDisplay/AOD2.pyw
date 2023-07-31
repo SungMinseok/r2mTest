@@ -47,7 +47,7 @@ class AlwaysOnTopWindow(QWidget):
         #     # ('그림판OFF', ['D:\\BatFile\\kill_mspaint.bat'])
         # ]
 
-        self.setGeometry(1920,1050, 81*len(buttons_info), 30)
+        self.setGeometry(1920,1060, 81*len(buttons_info), 20)
 
         # layout = QGridLayout()
         # layout.setSpacing(0)
@@ -90,7 +90,7 @@ class AlwaysOnTopWindow(QWidget):
                 button.setStyleSheet("background-color: rgb(14, 155, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
             elif i >= 9 and i <= 9 :
                 button.setStyleSheet("background-color: rgb(179, 67, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            button.setGeometry(81 * i , 0, 80, 30)
+            button.setGeometry(81 * i , 0, 80, 20)
             button.clicked.connect(lambda _, path=file_path: self.run_file(path))
 
     def run_file(self, file_paths):

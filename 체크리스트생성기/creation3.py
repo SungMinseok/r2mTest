@@ -48,7 +48,8 @@ def create_checklist(input_file, output_file, criterion, required_parts):
 if __name__ == "__main__":
     input_file = "insert.xlsx"
     output_file = f"result{time.strftime('_%y%m%d_%H%M%S')}.xlsx"
-    criterion = 'PkgName'
-    required_parts = 'all'#['미믹 코인','대성공1', '대성공2', '대성공3']#[('능력치', '수치'), '등록 성공 확률']
+    criterion = '네임'
+    #required_parts = 'all'#['미믹 코인','대성공1', '대성공2', '대성공3']#[('능력치', '수치'), '등록 성공 확률']
+    required_parts = ['등급','아이템 설명', '비고']#[('능력치', '수치'), '등록 성공 확률']
 
     create_checklist(input_file, output_file, criterion, required_parts)
