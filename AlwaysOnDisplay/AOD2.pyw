@@ -77,19 +77,25 @@ class AlwaysOnTopWindow(QWidget):
 # 고급:98,197,177
 # 일반:178,178,178
 
-        for i, (button_text, file_path) in enumerate(buttons_info):
+        for i, (button_color, button_text, file_path) in enumerate(buttons_info):
             button = QPushButton(button_text, self)
             #button.setStyleSheet("background-color: rgb(47, 117, 181);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            button.setStyleSheet("background-color: rgb(178, 178, 178);\ncolor: rgb(255, 255, 255);\nfont: bold")
             #button.setStyleSheet("color: rgb(14, 155, 217);font: bold")
-            if i == 0 :
-                button.setStyleSheet("background-color: rgb(255, 0, 0);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            elif i >= 5 and i <= 7 :
+            if button_color == 0 :            
+                button.setStyleSheet("background-color: rgb(178, 178, 178);\ncolor: rgb(255, 255, 255);\nfont: bold")
+
+            elif button_color == 1 :
                 button.setStyleSheet("background-color: rgb(98, 197, 177);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            elif i >= 8 and i <= 8 :
+            elif button_color == 2 :
                 button.setStyleSheet("background-color: rgb(14, 155, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
-            elif i >= 9 and i <= 9 :
+            elif button_color == 3 :
                 button.setStyleSheet("background-color: rgb(179, 67, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            elif button_color == 4 :
+                button.setStyleSheet("background-color: rgb(255, 0, 0);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            elif button_color == 5 :
+                button.setStyleSheet("background-color: rgb(253, 179, 0);\ncolor: rgb(255, 255, 255);\nfont: bold")
+            
+            
             button.setGeometry(81 * i , 0, 80, 20)
             button.clicked.connect(lambda _, path=file_path: self.run_file(path))
 
@@ -115,10 +121,11 @@ def parse_config_file(file_path):
         line = line.strip()
         if line:
             parts = line.split(',')
-            button_text = parts[0]
-            file_paths = [path.strip() for path in parts[1:]]
+            button_color = int(parts[0])
+            button_text = parts[1]
+            file_paths = [path.strip() for path in parts[2:]]
 
-            buttons_info.append((button_text, file_paths))
+            buttons_info.append((button_color, button_text, file_paths))
 
     return buttons_info
 
@@ -127,8 +134,8 @@ if __name__ == "__main__":
     global buttons_info
     buttons_info = parse_config_file(config_file)
 
-    for i, (button_text, file_paths) in enumerate(buttons_info):
-        print(f"buttons_info[{i}] = ('{button_text}', {file_paths})")
+    #for i, (button_color,button_text, file_paths) in enumerate(buttons_info):
+    #    print(f"buttons_info[{i}] = ('{button_text}', {file_paths})")
 
 
 
