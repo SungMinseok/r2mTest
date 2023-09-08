@@ -6,8 +6,9 @@ from PyQt5.QtCore import Qt
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QKeySequence,QPixmap, QColor
 from PyQt5.QtWidgets import QLabel, QApplication, QWidget, QVBoxLayout
+from merge_video import merge_videos
 
-form_class = uic.loadUiType(f'pyqt5UI.ui')[0]
+form_class = uic.loadUiType(f'VideoEncoder_UI.ui')[0]
 
 
 #화면을 띄우는데 사용되는 Class 선언
@@ -16,6 +17,12 @@ class WindowClass(QMainWindow, form_class) :
         super().__init__()
         self.setupUi(self)
 
+        self.setFixedSize(500,205)
+        #self.menu_patchnote.triggered.connect(lambda : self.파일열기("패치노트_RDM.txt"))
+        self.print_log("실행 가능")
+
+        #항상위
+        self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
 
 
         #'''디폴트값설정_텍스트파일'''
@@ -46,17 +53,22 @@ class WindowClass(QMainWindow, form_class) :
         #〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
 
         
-        self.btn_datapath.clicked.connect(self.select_input_file)
+        self.btn_datapath.clicked.connect(lambda : self.select_input_file(self.input_datapath))
         self.input_datapath.setAcceptDrops(True)
         self.input_datapath.dragEnterEvent = self.drag_enter_event
         self.input_datapath.dropEvent = self.drop_event
 
-
+        self.btn_datapath_2.clicked.connect(lambda : self.select_input_file(self.input_datapath_2))
+        self.input_datapath_2.setAcceptDrops(True)
+        self.input_datapath_2.dragEnterEvent = self.drag_enter_event
+        self.input_datapath_2.dropEvent = self.drop_event
 
         self.btn_resultpath.clicked.connect(self.set_directory_path)
-        self.btn_execute.clicked.connect(self.activate)
 
-    def select_input_file(self):
+        self.btn_execute.clicked.connect(self.activate)
+        self.btn_execute_2.clicked.connect(self.merge)
+
+    def select_input_file(self, input_):
         # Open a file dialog to select the data file
         file_filter = "Video files (*.mp4 *.mkv)"
         #file_filter = "엑셀 파일 (*.xlsx)"
@@ -64,7 +76,8 @@ class WindowClass(QMainWindow, form_class) :
         options |= QFileDialog.DontUseNativeDialog
 
         data_file, _ = QFileDialog.getOpenFileName(self,"데이터 파일 선택", filter= file_filter, options=options)
-        self.input_datapath.setText(data_file)
+        #self.input_datapath.setText(data_file)
+        input.setText(data_file)
 
     def set_directory_path(self):
         options = QFileDialog.Options()
@@ -116,10 +129,28 @@ class WindowClass(QMainWindow, form_class) :
 
         #if self.combox_contents.currentText() == "유료상점" and self.combox_doctype.currentText() == "CL" :
         try:
+            #sv.compress_video(input_filename,f'{output_filename}',start_time=start_sec, end_time=end_sec, bitrate="1500k")add_tag_to_video
             sv.compress_video(input_filename,f'{output_filename}',start_time=start_sec, end_time=end_sec, bitrate="1500k")
+            sv.add_text_to_video(output_filename,'rev.33043',f'test')
         except Exception as e:
             print(e)
 
+    def print_log(self, log): # / - \ / - \ / ㅡ ㄷ
+        self.progressLabel.setText(log)
+        QApplication.processEvents()
+
+    def merge(self):
+        video_0 = self.input_datapath.text()
+        video_1 = self.input_datapath_2.text()
+        result_dir = self.input_resultpath.text()
+
+        tempname = self.input_resultname.text()
+        if tempname == "":
+            tempname = "result"
+        
+        output_filename = f'{result_dir}{tempname}.mp4'
+
+        merge_videos(video_0, video_1, output_filename)
 
 import setvideo as sv
 from PyQt5 import QtCore, QtGui, QtWidgets

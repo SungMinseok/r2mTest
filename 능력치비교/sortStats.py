@@ -11,11 +11,16 @@ def sort_values(input_str : str):
     input_str = input_str.replace('+','')
     input_str = input_str.replace(' ','')
     
-    rules = ["물리방어",
-             "마법방어",
+    rules = [
+             "변신시추가HP", 
+             "변신시추가MP", 
              "물리공격", 
              "마법공격",
+             "물리방어",
+             "마법방어",
              "마나소모감소율",
+             "마나소모량",
+             "포션회복률",
              "공속", 
              "공격속도", 
              "물리명중", 
@@ -24,10 +29,10 @@ def sort_values(input_str : str):
              "마법피해감소",
              "이속",
              "이동속도",
-             "포션회복률",
              "마법명중",
              "치명타확률",
              "치명타공격력",
+             "치명타공격",
              "치명타회피",
              "HP",
              "HP회복",
@@ -37,6 +42,8 @@ def sort_values(input_str : str):
              "민첩", 
              "지능",
              "추가무게", 
+             "HP흡수",
+             "MP흡수", 
              "[" 
              ]
     lines = input_str.strip().split('\n')

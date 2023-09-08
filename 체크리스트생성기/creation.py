@@ -26,7 +26,11 @@ def create_checklist(input_file, output_file, criterion, required_parts):
 if __name__ == "__main__":
     input_file = "insert.xlsx"
     output_file = "result.xlsx"
-    criterion = '도감 이름'
-    required_parts = ['아이템 ID','아이템 명']#'all'#['등급', '나이', '가격']
+    criterion = '이름'
+    required_parts = ['아이템 설명','아이템 사용','비고']#'all'#['등급', '나이', '가격']
+    #required_parts = 'all'#['등급', '나이', '가격']
 
     create_checklist(input_file, output_file, criterion, required_parts)
+
+    import os
+    os.startfile(output_file)

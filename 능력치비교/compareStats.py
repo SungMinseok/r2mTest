@@ -16,6 +16,7 @@
 
 import pandas as pd
 from tqdm import tqdm
+import os
 
 # read the files
 #with open('인게임능력치_숫자만.txt', 'r', encoding='cp949') as f:
@@ -59,3 +60,4 @@ for output_line in tqdm(output_lines):
 # create a DataFrame from the data and write to Excel
 df = pd.DataFrame(data)
 df.to_excel('output.xlsx', index=False)
+os.startfile('output.xlsx')

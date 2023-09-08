@@ -87,7 +87,7 @@ class AlwaysOnTopWindow(QWidget):
             elif button_color == 1 :
                 button.setStyleSheet("background-color: rgb(98, 197, 177);\ncolor: rgb(255, 255, 255);\nfont: bold")
             elif button_color == 2 :
-                button.setStyleSheet("background-color: rgb(14, 155, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
+                button.setStyleSheet("background-color: rgb(0, 180, 255);\ncolor: rgb(255, 255, 255);\nfont: bold")
             elif button_color == 3 :
                 button.setStyleSheet("background-color: rgb(179, 67, 217);\ncolor: rgb(255, 255, 255);\nfont: bold")
             elif button_color == 4 :

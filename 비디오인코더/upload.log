@@ -7668,3 +7668,1457 @@
 . 2023-07-26 20:03:25.718 Script: Failed
 . 2023-07-26 20:03:25.718 Script: Exit code: 1
 . 2023-07-26 20:03:25.719 서버로부터 접속이 끊어졌습니다.
+. 2023-08-31 11:14:14.064 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.065 WinSCP 버전 5.7.4 (빌드 5553) (OS 10.0.19045 - Windows 10 Enterprise)
+. 2023-08-31 11:14:14.065 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2023-08-31 11:14:14.065 Log level: Normal
+. 2023-08-31 11:14:14.065 Local account: WEBZEN\mssung
+. 2023-08-31 11:14:14.065 Working directory: C:\Users\mssung\OneDrive\파이썬프로젝트\r2mTest\비디오인코더
+. 2023-08-31 11:14:14.065 Process ID: 7016
+. 2023-08-31 11:14:14.065 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=574 /consoleinstance=_19776_509 "/log=upload.log" "/command" "open ftp://mssung@webzen.com:webzen@2308@nas.webzen.co.kr:23145" "cd /Builds/TW" "lcd D:\Builds\TW" "get -neweronly *.apk*" "get -neweronly *.ipa*" "get -neweronly *.obb*" "exit" 
+. 2023-08-31 11:14:14.065 Time zone: Current: GMT+9 (대한민국 표준시), No DST
+. 2023-08-31 11:14:14.066 Login time: 2023년 8월 31일 목요일 오전 11:14:14
+. 2023-08-31 11:14:14.066 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.066 Script: Retrospectively logging previous script records:
+> 2023-08-31 11:14:14.066 Script: open ftp://mssung@webzen.com:***@nas.webzen.co.kr:23145
+. 2023-08-31 11:14:14.066 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.066 Session name: mssung@webzen.com@nas.webzen.co.kr (Ad-Hoc site)
+. 2023-08-31 11:14:14.066 Host name: nas.webzen.co.kr (Port: 23145)
+. 2023-08-31 11:14:14.066 User name: mssung@webzen.com (Password: Yes, Key file: No)
+. 2023-08-31 11:14:14.066 Transfer Protocol: FTP
+. 2023-08-31 11:14:14.066 Ping type: C, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-08-31 11:14:14.066 Disable Nagle: No
+. 2023-08-31 11:14:14.066 Proxy: none
+. 2023-08-31 11:14:14.066 Send buffer: 262144
+. 2023-08-31 11:14:14.066 UTF: 2
+. 2023-08-31 11:14:14.066 FTP: FTPS: None; Passive: Yes [Force IP: A]; MLSD: A [List all: A]
+. 2023-08-31 11:14:14.067 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-08-31 11:14:14.067 Cache directory changes: Yes, Permanent: Yes
+. 2023-08-31 11:14:14.067 Timezone offset: 0h 0m
+. 2023-08-31 11:14:14.067 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.073 nas.webzen.co.kr:23145에 접속 중입니다.
+. 2023-08-31 11:14:14.084 nas.webzen.co.kr:23145에 접속되었습니다. 환영 메시지를 기다리는 중 입니다...
+< 2023-08-31 11:14:14.086 220 Microsoft FTP Service
+> 2023-08-31 11:14:14.086 USER mssung@webzen.com
+< 2023-08-31 11:14:14.087 331 Password required
+> 2023-08-31 11:14:14.087 PASS ***********
+< 2023-08-31 11:14:14.148 230 User logged in.
+> 2023-08-31 11:14:14.148 SYST
+< 2023-08-31 11:14:14.150 215 Windows_NT
+> 2023-08-31 11:14:14.150 FEAT
+< 2023-08-31 11:14:14.151 211-Extended features supported:
+< 2023-08-31 11:14:14.152  LANG EN*
+< 2023-08-31 11:14:14.152  UTF8
+< 2023-08-31 11:14:14.152  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2023-08-31 11:14:14.152  PBSZ
+< 2023-08-31 11:14:14.152  PROT C;P;
+< 2023-08-31 11:14:14.152  CCC
+< 2023-08-31 11:14:14.152  HOST
+< 2023-08-31 11:14:14.152  SIZE
+< 2023-08-31 11:14:14.152  MDTM
+< 2023-08-31 11:14:14.152  REST STREAM
+< 2023-08-31 11:14:14.152 211 END
+> 2023-08-31 11:14:14.152 OPTS UTF8 ON
+< 2023-08-31 11:14:14.153 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2023-08-31 11:14:14.153 접속되었습니다.
+. 2023-08-31 11:14:14.153 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.153 Using FTP protocol.
+. 2023-08-31 11:14:14.153 Doing startup conversation with host.
+> 2023-08-31 11:14:14.154 PWD
+< 2023-08-31 11:14:14.155 257 "/" is current directory.
+. 2023-08-31 11:14:14.155 Getting current directory name.
+. 2023-08-31 11:14:14.155 Startup conversation with host finished.
+< 2023-08-31 11:14:14.155 Script: 활성화된 세션: [1] mssung@webzen.com@nas.webzen.co.kr
+> 2023-08-31 11:14:14.156 Script: cd /Builds/TW
+. 2023-08-31 11:14:14.156 Cached directory change via "/Builds/TW" to "/Builds/TW".
+. 2023-08-31 11:14:14.156 Getting current directory name.
+< 2023-08-31 11:14:14.156 Script: /Builds/TW
+> 2023-08-31 11:14:14.156 Script: lcd D:\Builds\TW
+< 2023-08-31 11:14:14.156 Script: D:\Builds\TW
+> 2023-08-31 11:14:14.157 Script: get -neweronly *.apk*
+. 2023-08-31 11:14:14.157 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.157 CWD /Builds/TW/
+< 2023-08-31 11:14:14.201 250 CWD command successful.
+> 2023-08-31 11:14:14.201 PWD
+< 2023-08-31 11:14:14.204 257 "/Builds/TW" is current directory.
+> 2023-08-31 11:14:14.204 TYPE A
+< 2023-08-31 11:14:14.206 200 Type set to A.
+> 2023-08-31 11:14:14.206 PASV
+< 2023-08-31 11:14:14.208 227 Entering Passive Mode (10,103,0,1,94,108).
+> 2023-08-31 11:14:14.208 LIST -a
+. 2023-08-31 11:14:14.208 10.103.0.1:24172에 접속 중입니다.
+< 2023-08-31 11:14:14.226 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.226 226 Transfer complete.
+. 2023-08-31 11:14:14.226 07-13-23  04:15PM            137113281 R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:14.226 07-13-23  04:15PM             66938169 R2MClientTaiwan_Alpha_19131_230713_1606.ipa
+. 2023-08-31 11:14:14.226 07-12-23  04:09PM             65449720 R2MClientTaiwan_Live_19131_230712_1551.ipa
+. 2023-08-31 11:14:14.226 07-12-23  04:36PM            107208387 R2MClientTaiwan_Live_QA_19131_230712_1624.apk
+. 2023-08-31 11:14:14.226 07-12-23  04:34PM             64681083 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa
+. 2023-08-31 11:14:14.226 01-01-81  01:01AM             82595470 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk
+. 2023-08-31 11:14:14.226 01-01-81  01:01AM            107950448 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk
+. 2023-08-31 11:14:14.226 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.226 Detecting timezone difference...
+. 2023-08-31 11:14:14.226 파일 정보 검색 중...
+> 2023-08-31 11:14:14.226 PWD
+< 2023-08-31 11:14:14.231 257 "/Builds/TW" is current directory.
+> 2023-08-31 11:14:14.231 CWD /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:14.234 550 The filename, directory name, or volume label syntax is incorrect. 
+> 2023-08-31 11:14:14.234 TYPE I
+< 2023-08-31 11:14:14.235 200 Type set to I.
+> 2023-08-31 11:14:14.235 SIZE /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:14.239 213 137113281
+> 2023-08-31 11:14:14.239 MDTM /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:14.242 213 20230713071546
+. 2023-08-31 11:14:14.242 파일 정보 검색을 성공 하였습니다.
+. 2023-08-31 11:14:14.242 No timezone difference detected using file /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:14.242 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 R2MClientTaiwan_Alpha_19131_230713_1606.apk;-;137113281;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 R2MClientTaiwan_Alpha_19131_230713_1606.ipa;-;66938169;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 R2MClientTaiwan_Live_19131_230712_1551.ipa;-;65449720;2023-07-12T07:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 R2MClientTaiwan_Live_QA_19131_230712_1624.apk;-;107208387;2023-07-12T07:36:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa;-;64681083;2023-07-12T07:34:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk;-;82595470;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.242 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk;-;107950448;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.243 Copying 4 files/directories to local directory "D:\Builds\TW"
+. 2023-08-31 11:14:14.243   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.243   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.243   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.243 File: '/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk' [2023-07-13T07:15:00.000Z] [137113281]
+. 2023-08-31 11:14:14.243 Copying "/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk" to local directory started.
+. 2023-08-31 11:14:14.243 Binary transfer mode selected.
+. 2023-08-31 11:14:14.254 /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.254 Source file timestamp is [2023-07-13T07:15:00.000Z], destination timestamp is [2023-07-13T07:15:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.254 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.254 (EScpSkipFile) 
+. 2023-08-31 11:14:14.255 File: '/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk' [2023-07-12T07:36:00.000Z] [107208387]
+. 2023-08-31 11:14:14.255 Copying "/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk" to local directory started.
+. 2023-08-31 11:14:14.255 Binary transfer mode selected.
+. 2023-08-31 11:14:14.255 /Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.255 Source file timestamp is [2023-07-12T07:36:00.000Z], destination timestamp is [2023-07-12T07:36:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.255 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.255 (EScpSkipFile) 
+. 2023-08-31 11:14:14.255 File: '/Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk' [1980-12-31T16:01:00.000Z] [82595470]
+. 2023-08-31 11:14:14.256 Copying "/Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk" to local directory started.
+. 2023-08-31 11:14:14.256 Binary transfer mode selected.
+. 2023-08-31 11:14:14.256 /Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.256 Source file timestamp is [1980-12-31T16:01:00.000Z], destination timestamp is [1980-12-31T16:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.256 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.256 (EScpSkipFile) 
+. 2023-08-31 11:14:14.256 File: '/Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk' [1980-12-31T16:01:00.000Z] [107950448]
+. 2023-08-31 11:14:14.256 Copying "/Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk" to local directory started.
+. 2023-08-31 11:14:14.256 Binary transfer mode selected.
+. 2023-08-31 11:14:14.256 /Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.256 Source file timestamp is [1980-12-31T16:01:00.000Z], destination timestamp is [1980-12-31T16:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.257 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.257 (EScpSkipFile) 
+> 2023-08-31 11:14:14.257 Script: get -neweronly *.ipa*
+. 2023-08-31 11:14:14.257 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.257 TYPE A
+< 2023-08-31 11:14:14.258 200 Type set to A.
+> 2023-08-31 11:14:14.258 PASV
+< 2023-08-31 11:14:14.260 227 Entering Passive Mode (10,103,0,1,97,152).
+> 2023-08-31 11:14:14.260 LIST -a
+. 2023-08-31 11:14:14.260 10.103.0.1:24984에 접속 중입니다.
+< 2023-08-31 11:14:14.265 150 Opening ASCII mode data connection.
+< 2023-08-31 11:14:14.265 226 Transfer complete.
+. 2023-08-31 11:14:14.265 07-13-23  04:15PM            137113281 R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:14.265 07-13-23  04:15PM             66938169 R2MClientTaiwan_Alpha_19131_230713_1606.ipa
+. 2023-08-31 11:14:14.265 07-12-23  04:09PM             65449720 R2MClientTaiwan_Live_19131_230712_1551.ipa
+. 2023-08-31 11:14:14.265 07-12-23  04:36PM            107208387 R2MClientTaiwan_Live_QA_19131_230712_1624.apk
+. 2023-08-31 11:14:14.265 07-12-23  04:34PM             64681083 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa
+. 2023-08-31 11:14:14.265 01-01-81  01:01AM             82595470 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk
+. 2023-08-31 11:14:14.265 01-01-81  01:01AM            107950448 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk
+. 2023-08-31 11:14:14.265 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.266 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 R2MClientTaiwan_Alpha_19131_230713_1606.apk;-;137113281;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 R2MClientTaiwan_Alpha_19131_230713_1606.ipa;-;66938169;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 R2MClientTaiwan_Live_19131_230712_1551.ipa;-;65449720;2023-07-12T07:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 R2MClientTaiwan_Live_QA_19131_230712_1624.apk;-;107208387;2023-07-12T07:36:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa;-;64681083;2023-07-12T07:34:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk;-;82595470;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk;-;107950448;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.266 Copying 3 files/directories to local directory "D:\Builds\TW"
+. 2023-08-31 11:14:14.266   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.266   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.266   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.266 File: '/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.ipa' [2023-07-13T07:15:00.000Z] [66938169]
+. 2023-08-31 11:14:14.266 Copying "/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.ipa" to local directory started.
+. 2023-08-31 11:14:14.266 Binary transfer mode selected.
+. 2023-08-31 11:14:14.266 /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.266 Source file timestamp is [2023-07-13T07:15:00.000Z], destination timestamp is [2023-07-13T07:15:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.266 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.266 (EScpSkipFile) 
+. 2023-08-31 11:14:14.266 File: '/Builds/TW/R2MClientTaiwan_Live_19131_230712_1551.ipa' [2023-07-12T07:09:00.000Z] [65449720]
+. 2023-08-31 11:14:14.267 Copying "/Builds/TW/R2MClientTaiwan_Live_19131_230712_1551.ipa" to local directory started.
+. 2023-08-31 11:14:14.267 Binary transfer mode selected.
+. 2023-08-31 11:14:14.267 /Builds/TW/R2MClientTaiwan_Live_19131_230712_1551.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.267 Source file timestamp is [2023-07-12T07:09:00.000Z], destination timestamp is [2023-07-12T07:09:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.267 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.267 (EScpSkipFile) 
+. 2023-08-31 11:14:14.267 File: '/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.ipa' [2023-07-12T07:34:00.000Z] [64681083]
+. 2023-08-31 11:14:14.267 Copying "/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.ipa" to local directory started.
+. 2023-08-31 11:14:14.267 Binary transfer mode selected.
+. 2023-08-31 11:14:14.267 /Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.267 Source file timestamp is [2023-07-12T07:34:00.000Z], destination timestamp is [2023-07-12T07:34:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.267 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.267 (EScpSkipFile) 
+> 2023-08-31 11:14:14.267 Script: get -neweronly *.obb*
+. 2023-08-31 11:14:14.267 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.267 TYPE A
+< 2023-08-31 11:14:14.269 200 Type set to A.
+> 2023-08-31 11:14:14.269 PASV
+< 2023-08-31 11:14:14.271 227 Entering Passive Mode (10,103,0,1,95,102).
+> 2023-08-31 11:14:14.271 LIST -a
+. 2023-08-31 11:14:14.271 10.103.0.1:24422에 접속 중입니다.
+< 2023-08-31 11:14:14.273 150 Opening ASCII mode data connection.
+< 2023-08-31 11:14:14.275 226 Transfer complete.
+. 2023-08-31 11:14:14.276 07-13-23  04:15PM            137113281 R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:14.276 07-13-23  04:15PM             66938169 R2MClientTaiwan_Alpha_19131_230713_1606.ipa
+. 2023-08-31 11:14:14.276 07-12-23  04:09PM             65449720 R2MClientTaiwan_Live_19131_230712_1551.ipa
+. 2023-08-31 11:14:14.276 07-12-23  04:36PM            107208387 R2MClientTaiwan_Live_QA_19131_230712_1624.apk
+. 2023-08-31 11:14:14.276 07-12-23  04:34PM             64681083 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa
+. 2023-08-31 11:14:14.276 01-01-81  01:01AM             82595470 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk
+. 2023-08-31 11:14:14.276 01-01-81  01:01AM            107950448 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk
+. 2023-08-31 11:14:14.276 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.276 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 R2MClientTaiwan_Alpha_19131_230713_1606.apk;-;137113281;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 R2MClientTaiwan_Alpha_19131_230713_1606.ipa;-;66938169;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 R2MClientTaiwan_Live_19131_230712_1551.ipa;-;65449720;2023-07-12T07:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 R2MClientTaiwan_Live_QA_19131_230712_1624.apk;-;107208387;2023-07-12T07:36:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa;-;64681083;2023-07-12T07:34:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk;-;82595470;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.276 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk;-;107950448;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+< 2023-08-31 11:14:14.276 Script: '*.obb*'와 일치하는 파일이 없습니다.
+. 2023-08-31 11:14:14.276 Copying 0 files/directories to local directory "D:\Builds\TW"
+. 2023-08-31 11:14:14.276   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.276   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.276   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+> 2023-08-31 11:14:14.276 Script: exit
+. 2023-08-31 11:14:14.276 Script: Exit code: 0
+. 2023-08-31 11:14:14.277 서버로부터 접속이 끊어졌습니다.
+. 2023-08-31 11:14:14.410 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.410 WinSCP 버전 5.7.4 (빌드 5553) (OS 10.0.19045 - Windows 10 Enterprise)
+. 2023-08-31 11:14:14.410 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2023-08-31 11:14:14.411 Log level: Normal
+. 2023-08-31 11:14:14.411 Local account: WEBZEN\mssung
+. 2023-08-31 11:14:14.411 Working directory: C:\Users\mssung\OneDrive\파이썬프로젝트\r2mTest\비디오인코더
+. 2023-08-31 11:14:14.411 Process ID: 12852
+. 2023-08-31 11:14:14.411 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=574 /consoleinstance=_17812_437 "/log=upload.log" "/command" "open ftp://mssung@webzen.com:webzen@2308@nas.webzen.co.kr:23145" "cd /Builds/KR" "lcd D:\Builds\KR" "get -neweronly *.apk*" "get -neweronly *.ipa*" "get -neweronly *.obb*" "exit" 
+. 2023-08-31 11:14:14.411 Time zone: Current: GMT+9 (대한민국 표준시), No DST
+. 2023-08-31 11:14:14.411 Login time: 2023년 8월 31일 목요일 오전 11:14:14
+. 2023-08-31 11:14:14.411 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.411 Script: Retrospectively logging previous script records:
+> 2023-08-31 11:14:14.411 Script: open ftp://mssung@webzen.com:***@nas.webzen.co.kr:23145
+. 2023-08-31 11:14:14.411 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.411 Session name: mssung@webzen.com@nas.webzen.co.kr (Ad-Hoc site)
+. 2023-08-31 11:14:14.411 Host name: nas.webzen.co.kr (Port: 23145)
+. 2023-08-31 11:14:14.411 User name: mssung@webzen.com (Password: Yes, Key file: No)
+. 2023-08-31 11:14:14.411 Transfer Protocol: FTP
+. 2023-08-31 11:14:14.411 Ping type: C, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-08-31 11:14:14.411 Disable Nagle: No
+. 2023-08-31 11:14:14.411 Proxy: none
+. 2023-08-31 11:14:14.411 Send buffer: 262144
+. 2023-08-31 11:14:14.411 UTF: 2
+. 2023-08-31 11:14:14.411 FTP: FTPS: None; Passive: Yes [Force IP: A]; MLSD: A [List all: A]
+. 2023-08-31 11:14:14.411 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-08-31 11:14:14.411 Cache directory changes: Yes, Permanent: Yes
+. 2023-08-31 11:14:14.411 Timezone offset: 0h 0m
+. 2023-08-31 11:14:14.411 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.417 nas.webzen.co.kr:23145에 접속 중입니다.
+. 2023-08-31 11:14:14.425 nas.webzen.co.kr:23145에 접속되었습니다. 환영 메시지를 기다리는 중 입니다...
+< 2023-08-31 11:14:14.427 220 Microsoft FTP Service
+> 2023-08-31 11:14:14.427 USER mssung@webzen.com
+< 2023-08-31 11:14:14.428 331 Password required
+> 2023-08-31 11:14:14.428 PASS ***********
+< 2023-08-31 11:14:14.434 230 User logged in.
+> 2023-08-31 11:14:14.434 SYST
+< 2023-08-31 11:14:14.435 215 Windows_NT
+> 2023-08-31 11:14:14.435 FEAT
+< 2023-08-31 11:14:14.435 211-Extended features supported:
+< 2023-08-31 11:14:14.435  LANG EN*
+< 2023-08-31 11:14:14.435  UTF8
+< 2023-08-31 11:14:14.435  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2023-08-31 11:14:14.435  PBSZ
+< 2023-08-31 11:14:14.435  PROT C;P;
+< 2023-08-31 11:14:14.435  CCC
+< 2023-08-31 11:14:14.435  HOST
+< 2023-08-31 11:14:14.435  SIZE
+< 2023-08-31 11:14:14.435  MDTM
+< 2023-08-31 11:14:14.435  REST STREAM
+< 2023-08-31 11:14:14.435 211 END
+> 2023-08-31 11:14:14.435 OPTS UTF8 ON
+< 2023-08-31 11:14:14.436 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2023-08-31 11:14:14.436 접속되었습니다.
+. 2023-08-31 11:14:14.436 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.436 Using FTP protocol.
+. 2023-08-31 11:14:14.436 Doing startup conversation with host.
+> 2023-08-31 11:14:14.437 PWD
+< 2023-08-31 11:14:14.438 257 "/" is current directory.
+. 2023-08-31 11:14:14.438 Getting current directory name.
+. 2023-08-31 11:14:14.438 Startup conversation with host finished.
+< 2023-08-31 11:14:14.438 Script: 활성화된 세션: [1] mssung@webzen.com@nas.webzen.co.kr
+> 2023-08-31 11:14:14.438 Script: cd /Builds/KR
+. 2023-08-31 11:14:14.438 Cached directory change via "/Builds/KR" to "/Builds/KR".
+. 2023-08-31 11:14:14.438 Getting current directory name.
+< 2023-08-31 11:14:14.438 Script: /Builds/KR
+> 2023-08-31 11:14:14.438 Script: lcd D:\Builds\KR
+< 2023-08-31 11:14:14.438 Script: D:\Builds\KR
+> 2023-08-31 11:14:14.438 Script: get -neweronly *.apk*
+. 2023-08-31 11:14:14.438 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.438 CWD /Builds/KR/
+< 2023-08-31 11:14:14.453 250 CWD command successful.
+> 2023-08-31 11:14:14.454 PWD
+< 2023-08-31 11:14:14.455 257 "/Builds/KR" is current directory.
+> 2023-08-31 11:14:14.455 TYPE A
+< 2023-08-31 11:14:14.458 200 Type set to A.
+> 2023-08-31 11:14:14.458 PASV
+< 2023-08-31 11:14:14.460 227 Entering Passive Mode (10,103,0,1,94,178).
+> 2023-08-31 11:14:14.460 LIST -a
+. 2023-08-31 11:14:14.460 10.103.0.1:24242에 접속 중입니다.
+< 2023-08-31 11:14:14.489 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.489 226 Transfer complete.
+. 2023-08-31 11:14:14.490 07-27-23  02:16AM             42425993 main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.490 08-25-23  07:50PM             42514299 main.125.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.490 07-21-23  08:17PM             67016365 R2MClientKorea_Alpha_1100121_230721_2008.ipa
+. 2023-08-31 11:14:14.490 07-27-23  02:03AM            138167152 R2MClientKorea_Alpha_1101123_230727_0155.apk
+. 2023-08-31 11:14:14.490 08-18-23  08:09PM             67278107 R2MClientKorea_Alpha_1110125_230818_2000.ipa
+. 2023-08-31 11:14:14.490 08-18-23  08:13PM            139215740 R2MClientKorea_Alpha_1110125_230818_2002.apk
+. 2023-08-31 11:14:14.490 08-21-23  08:48PM             67280641 R2MClientKorea_Alpha_1110125_230821_2038.ipa
+. 2023-08-31 11:14:14.490 08-21-23  08:52PM            139167616 R2MClientKorea_Alpha_1110125_230821_2039.apk
+. 2023-08-31 11:14:14.490 08-22-23  08:03PM            139191440 R2MClientKorea_Alpha_1110125_230822_1950.apk
+. 2023-08-31 11:14:14.490 08-22-23  08:01PM             67276925 R2MClientKorea_Alpha_1110125_230822_1950.ipa
+. 2023-08-31 11:14:14.490 08-23-23  12:58PM            139189852 R2MClientKorea_Alpha_1110125_230823_1246.apk
+. 2023-08-31 11:14:14.490 08-23-23  12:56PM             67282205 R2MClientKorea_Alpha_1110125_230823_1246.ipa
+. 2023-08-31 11:14:14.490 08-23-23  09:07PM            139152276 R2MClientKorea_Alpha_1110125_230823_2054.apk
+. 2023-08-31 11:14:14.490 08-23-23  09:05PM             67279844 R2MClientKorea_Alpha_1110125_230823_2054.ipa
+. 2023-08-31 11:14:14.490 08-24-23  01:51PM             67284249 R2MClientKorea_Alpha_1110125_230824_1341.ipa
+. 2023-08-31 11:14:14.490 08-24-23  01:54PM            139193184 R2MClientKorea_Alpha_1110125_230824_1342.apk
+. 2023-08-31 11:14:14.490 08-24-23  07:47PM            139243680 R2MClientKorea_Alpha_1110125_230824_1936.apk
+. 2023-08-31 11:14:14.490 08-24-23  07:48PM             67282638 R2MClientKorea_Alpha_1110125_230824_1936.ipa
+. 2023-08-31 11:14:14.490 08-25-23  01:07PM            139227540 R2MClientKorea_Alpha_1110125_230825_1254.apk
+. 2023-08-31 11:14:14.490 08-25-23  01:05PM             67282649 R2MClientKorea_Alpha_1110125_230825_1254.ipa
+. 2023-08-31 11:14:14.490 08-25-23  04:23PM            139247232 R2MClientKorea_Alpha_1110125_230825_1610.apk
+. 2023-08-31 11:14:14.490 08-25-23  04:21PM             67282356 R2MClientKorea_Alpha_1110125_230825_1610.ipa
+. 2023-08-31 11:14:14.490 08-25-23  05:22PM            139251832 R2MClientKorea_Alpha_1110125_230825_1711.apk
+. 2023-08-31 11:14:14.490 08-25-23  05:22PM             67283780 R2MClientKorea_Alpha_1110125_230825_1711.ipa
+. 2023-08-31 11:14:14.490 08-25-23  06:05PM            139243108 R2MClientKorea_Alpha_1110125_230825_1754.apk
+. 2023-08-31 11:14:14.490 08-25-23  06:05PM             67283889 R2MClientKorea_Alpha_1110125_230825_1754.ipa
+. 2023-08-31 11:14:14.490 08-25-23  07:14PM            139243352 R2MClientKorea_Alpha_1110125_230825_1903.apk
+. 2023-08-31 11:14:14.490 08-25-23  07:14PM             67283945 R2MClientKorea_Alpha_1110125_230825_1903.ipa
+. 2023-08-31 11:14:14.490 07-21-23  08:38PM             67796556 R2MClientKorea_Live_1100121_230721_2020.ipa
+. 2023-08-31 11:14:14.490 08-25-23  07:45PM             68055881 R2MClientKorea_Live_1110125_230825_1937.ipa
+. 2023-08-31 11:14:14.490 07-21-23  08:44PM             67028354 R2MClientKorea_Live_QA_1100121_230721_2034.ipa
+. 2023-08-31 11:14:14.490 07-27-23  02:28AM            110869376 R2MClientKorea_Live_QA_1101123_230727_0219.apk
+. 2023-08-31 11:14:14.490 08-25-23  08:03PM            111664704 R2MClientKorea_Live_QA_1110125_230825_1951.apk
+. 2023-08-31 11:14:14.490 08-25-23  08:01PM             67288963 R2MClientKorea_Live_QA_1110125_230825_1951.ipa
+. 2023-08-31 11:14:14.490 07-27-23  02:17AM             86449646 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk
+. 2023-08-31 11:14:14.490 08-25-23  07:50PM             86896110 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk
+. 2023-08-31 11:14:14.490 07-27-23  02:17AM             69217442 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk
+. 2023-08-31 11:14:14.490 08-25-23  07:50PM             69926050 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk
+. 2023-08-31 11:14:14.490 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.490 Detecting timezone difference...
+. 2023-08-31 11:14:14.490 파일 정보 검색 중...
+> 2023-08-31 11:14:14.490 PWD
+< 2023-08-31 11:14:14.492 257 "/Builds/KR" is current directory.
+> 2023-08-31 11:14:14.492 CWD /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.509 550 The filename, directory name, or volume label syntax is incorrect. 
+> 2023-08-31 11:14:14.510 TYPE I
+< 2023-08-31 11:14:14.512 200 Type set to I.
+> 2023-08-31 11:14:14.512 SIZE /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.516 213 42425993
+> 2023-08-31 11:14:14.516 MDTM /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.520 213 20230726171635
+. 2023-08-31 11:14:14.520 파일 정보 검색을 성공 하였습니다.
+. 2023-08-31 11:14:14.520 No timezone difference detected using file /Builds/KR/main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.520 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 main.123.com.webzen.r2m.google.obb;-;42425993;2023-07-26T17:16:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 main.125.com.webzen.r2m.google.obb;-;42514299;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1100121_230721_2008.ipa;-;67016365;2023-07-21T11:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1101123_230727_0155.apk;-;138167152;2023-07-26T17:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230818_2000.ipa;-;67278107;2023-08-18T11:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230818_2002.apk;-;139215740;2023-08-18T11:13:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230821_2038.ipa;-;67280641;2023-08-21T11:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230821_2039.apk;-;139167616;2023-08-21T11:52:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230822_1950.apk;-;139191440;2023-08-22T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230822_1950.ipa;-;67276925;2023-08-22T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230823_1246.apk;-;139189852;2023-08-23T03:58:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230823_1246.ipa;-;67282205;2023-08-23T03:56:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230823_2054.apk;-;139152276;2023-08-23T12:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230823_2054.ipa;-;67279844;2023-08-23T12:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230824_1341.ipa;-;67284249;2023-08-24T04:51:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230824_1342.apk;-;139193184;2023-08-24T04:54:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230824_1936.apk;-;139243680;2023-08-24T10:47:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230824_1936.ipa;-;67282638;2023-08-24T10:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1254.apk;-;139227540;2023-08-25T04:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1254.ipa;-;67282649;2023-08-25T04:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1610.apk;-;139247232;2023-08-25T07:23:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1610.ipa;-;67282356;2023-08-25T07:21:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1711.apk;-;139251832;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1711.ipa;-;67283780;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1754.apk;-;139243108;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1754.ipa;-;67283889;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1903.apk;-;139243352;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Alpha_1110125_230825_1903.ipa;-;67283945;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_1100121_230721_2020.ipa;-;67796556;2023-07-21T11:38:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_1110125_230825_1937.ipa;-;68055881;2023-08-25T10:45:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_QA_1100121_230721_2034.ipa;-;67028354;2023-07-21T11:44:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_QA_1101123_230727_0219.apk;-;110869376;2023-07-26T17:28:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_QA_1110125_230825_1951.apk;-;111664704;2023-08-25T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 R2MClientKorea_Live_QA_1110125_230825_1951.ipa;-;67288963;2023-08-25T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk;-;86449646;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk;-;86896110;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk;-;69217442;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.520 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk;-;69926050;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.521 Copying 19 files/directories to local directory "D:\Builds\KR"
+. 2023-08-31 11:14:14.521   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.521   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.521   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.521 File: '/Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk' [2023-07-26T17:03:00.000Z] [138167152]
+. 2023-08-31 11:14:14.521 Copying "/Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk" to local directory started.
+. 2023-08-31 11:14:14.521 Binary transfer mode selected.
+. 2023-08-31 11:14:14.521 /Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.521 Source file timestamp is [2023-07-26T17:03:00.000Z], destination timestamp is [2023-07-26T17:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.522 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.522 (EScpSkipFile) 
+. 2023-08-31 11:14:14.522 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk' [2023-08-18T11:13:00.000Z] [139215740]
+. 2023-08-31 11:14:14.522 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk" to local directory started.
+. 2023-08-31 11:14:14.522 Binary transfer mode selected.
+. 2023-08-31 11:14:14.522 /Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.522 Source file timestamp is [2023-08-18T11:13:00.000Z], destination timestamp is [2023-08-18T11:13:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.522 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.522 (EScpSkipFile) 
+. 2023-08-31 11:14:14.522 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk' [2023-08-21T11:52:00.000Z] [139167616]
+. 2023-08-31 11:14:14.522 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk" to local directory started.
+. 2023-08-31 11:14:14.522 Binary transfer mode selected.
+. 2023-08-31 11:14:14.522 /Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.522 Source file timestamp is [2023-08-21T11:52:00.000Z], destination timestamp is [2023-08-21T11:52:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.522 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.522 (EScpSkipFile) 
+. 2023-08-31 11:14:14.522 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk' [2023-08-22T11:03:00.000Z] [139191440]
+. 2023-08-31 11:14:14.522 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk" to local directory started.
+. 2023-08-31 11:14:14.522 Binary transfer mode selected.
+. 2023-08-31 11:14:14.523 /Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.523 Source file timestamp is [2023-08-22T11:03:00.000Z], destination timestamp is [2023-08-22T11:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.523 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.523 (EScpSkipFile) 
+. 2023-08-31 11:14:14.523 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk' [2023-08-23T03:58:00.000Z] [139189852]
+. 2023-08-31 11:14:14.523 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk" to local directory started.
+. 2023-08-31 11:14:14.523 Binary transfer mode selected.
+. 2023-08-31 11:14:14.523 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.523 Source file timestamp is [2023-08-23T03:58:00.000Z], destination timestamp is [2023-08-23T03:58:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.523 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.523 (EScpSkipFile) 
+. 2023-08-31 11:14:14.523 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk' [2023-08-23T12:07:00.000Z] [139152276]
+. 2023-08-31 11:14:14.523 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk" to local directory started.
+. 2023-08-31 11:14:14.523 Binary transfer mode selected.
+. 2023-08-31 11:14:14.523 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.523 Source file timestamp is [2023-08-23T12:07:00.000Z], destination timestamp is [2023-08-23T12:07:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.523 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.523 (EScpSkipFile) 
+. 2023-08-31 11:14:14.524 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk' [2023-08-24T04:54:00.000Z] [139193184]
+. 2023-08-31 11:14:14.524 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk" to local directory started.
+. 2023-08-31 11:14:14.524 Binary transfer mode selected.
+. 2023-08-31 11:14:14.524 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.524 Source file timestamp is [2023-08-24T04:54:00.000Z], destination timestamp is [2023-08-24T04:54:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.524 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.524 (EScpSkipFile) 
+. 2023-08-31 11:14:14.524 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk' [2023-08-24T10:47:00.000Z] [139243680]
+. 2023-08-31 11:14:14.524 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk" to local directory started.
+. 2023-08-31 11:14:14.524 Binary transfer mode selected.
+. 2023-08-31 11:14:14.524 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.524 Source file timestamp is [2023-08-24T10:47:00.000Z], destination timestamp is [2023-08-24T10:47:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.524 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.524 (EScpSkipFile) 
+. 2023-08-31 11:14:14.524 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk' [2023-08-25T04:07:00.000Z] [139227540]
+. 2023-08-31 11:14:14.524 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk" to local directory started.
+. 2023-08-31 11:14:14.524 Binary transfer mode selected.
+. 2023-08-31 11:14:14.524 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.525 Source file timestamp is [2023-08-25T04:07:00.000Z], destination timestamp is [2023-08-25T04:07:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.525 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.525 (EScpSkipFile) 
+. 2023-08-31 11:14:14.525 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk' [2023-08-25T07:23:00.000Z] [139247232]
+. 2023-08-31 11:14:14.525 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk" to local directory started.
+. 2023-08-31 11:14:14.525 Binary transfer mode selected.
+. 2023-08-31 11:14:14.525 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.525 Source file timestamp is [2023-08-25T07:23:00.000Z], destination timestamp is [2023-08-25T07:23:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.525 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.525 (EScpSkipFile) 
+. 2023-08-31 11:14:14.525 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk' [2023-08-25T08:22:00.000Z] [139251832]
+. 2023-08-31 11:14:14.525 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk" to local directory started.
+. 2023-08-31 11:14:14.525 Binary transfer mode selected.
+. 2023-08-31 11:14:14.525 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.525 Source file timestamp is [2023-08-25T08:22:00.000Z], destination timestamp is [2023-08-25T08:22:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.525 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.525 (EScpSkipFile) 
+. 2023-08-31 11:14:14.526 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk' [2023-08-25T09:05:00.000Z] [139243108]
+. 2023-08-31 11:14:14.526 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk" to local directory started.
+. 2023-08-31 11:14:14.526 Binary transfer mode selected.
+. 2023-08-31 11:14:14.526 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.526 Source file timestamp is [2023-08-25T09:05:00.000Z], destination timestamp is [2023-08-25T09:05:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.526 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.526 (EScpSkipFile) 
+. 2023-08-31 11:14:14.526 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk' [2023-08-25T10:14:00.000Z] [139243352]
+. 2023-08-31 11:14:14.526 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk" to local directory started.
+. 2023-08-31 11:14:14.526 Binary transfer mode selected.
+. 2023-08-31 11:14:14.526 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.526 Source file timestamp is [2023-08-25T10:14:00.000Z], destination timestamp is [2023-08-25T10:14:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.526 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.526 (EScpSkipFile) 
+. 2023-08-31 11:14:14.526 File: '/Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk' [2023-07-26T17:28:00.000Z] [110869376]
+. 2023-08-31 11:14:14.526 Copying "/Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk" to local directory started.
+. 2023-08-31 11:14:14.526 Binary transfer mode selected.
+. 2023-08-31 11:14:14.526 /Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.527 Source file timestamp is [2023-07-26T17:28:00.000Z], destination timestamp is [2023-07-26T17:28:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.527 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.527 (EScpSkipFile) 
+. 2023-08-31 11:14:14.527 File: '/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk' [2023-08-25T11:03:00.000Z] [111664704]
+. 2023-08-31 11:14:14.527 Copying "/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk" to local directory started.
+. 2023-08-31 11:14:14.527 Binary transfer mode selected.
+. 2023-08-31 11:14:14.527 /Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.527 Source file timestamp is [2023-08-25T11:03:00.000Z], destination timestamp is [2023-08-25T11:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.527 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.527 (EScpSkipFile) 
+. 2023-08-31 11:14:14.527 File: '/Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk' [2023-07-26T17:17:00.000Z] [86449646]
+. 2023-08-31 11:14:14.527 Copying "/Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk" to local directory started.
+. 2023-08-31 11:14:14.527 Binary transfer mode selected.
+. 2023-08-31 11:14:14.527 /Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.527 Source file timestamp is [2023-07-26T17:17:00.000Z], destination timestamp is [2023-07-26T17:17:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.527 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.527 (EScpSkipFile) 
+. 2023-08-31 11:14:14.527 File: '/Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk' [2023-08-25T10:50:00.000Z] [86896110]
+. 2023-08-31 11:14:14.527 Copying "/Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk" to local directory started.
+. 2023-08-31 11:14:14.527 Binary transfer mode selected.
+. 2023-08-31 11:14:14.528 /Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.528 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.528 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.528 (EScpSkipFile) 
+. 2023-08-31 11:14:14.528 File: '/Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk' [2023-07-26T17:17:00.000Z] [69217442]
+. 2023-08-31 11:14:14.528 Copying "/Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk" to local directory started.
+. 2023-08-31 11:14:14.528 Binary transfer mode selected.
+. 2023-08-31 11:14:14.528 /Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.528 Source file timestamp is [2023-07-26T17:17:00.000Z], destination timestamp is [2023-07-26T17:17:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.528 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.528 (EScpSkipFile) 
+. 2023-08-31 11:14:14.528 File: '/Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk' [2023-08-25T10:50:00.000Z] [69926050]
+. 2023-08-31 11:14:14.528 Copying "/Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk" to local directory started.
+. 2023-08-31 11:14:14.528 Binary transfer mode selected.
+. 2023-08-31 11:14:14.528 /Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.528 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.528 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.528 (EScpSkipFile) 
+> 2023-08-31 11:14:14.528 Script: get -neweronly *.ipa*
+. 2023-08-31 11:14:14.529 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.529 TYPE A
+< 2023-08-31 11:14:14.530 200 Type set to A.
+> 2023-08-31 11:14:14.530 PASV
+< 2023-08-31 11:14:14.532 227 Entering Passive Mode (10,103,0,1,94,102).
+> 2023-08-31 11:14:14.532 LIST -a
+. 2023-08-31 11:14:14.532 10.103.0.1:24166에 접속 중입니다.
+< 2023-08-31 11:14:14.537 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.537 226 Transfer complete.
+. 2023-08-31 11:14:14.538 07-27-23  02:16AM             42425993 main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.538 08-25-23  07:50PM             42514299 main.125.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.538 07-21-23  08:17PM             67016365 R2MClientKorea_Alpha_1100121_230721_2008.ipa
+. 2023-08-31 11:14:14.538 07-27-23  02:03AM            138167152 R2MClientKorea_Alpha_1101123_230727_0155.apk
+. 2023-08-31 11:14:14.538 08-18-23  08:09PM             67278107 R2MClientKorea_Alpha_1110125_230818_2000.ipa
+. 2023-08-31 11:14:14.538 08-18-23  08:13PM            139215740 R2MClientKorea_Alpha_1110125_230818_2002.apk
+. 2023-08-31 11:14:14.538 08-21-23  08:48PM             67280641 R2MClientKorea_Alpha_1110125_230821_2038.ipa
+. 2023-08-31 11:14:14.538 08-21-23  08:52PM            139167616 R2MClientKorea_Alpha_1110125_230821_2039.apk
+. 2023-08-31 11:14:14.538 08-22-23  08:03PM            139191440 R2MClientKorea_Alpha_1110125_230822_1950.apk
+. 2023-08-31 11:14:14.538 08-22-23  08:01PM             67276925 R2MClientKorea_Alpha_1110125_230822_1950.ipa
+. 2023-08-31 11:14:14.538 08-23-23  12:58PM            139189852 R2MClientKorea_Alpha_1110125_230823_1246.apk
+. 2023-08-31 11:14:14.538 08-23-23  12:56PM             67282205 R2MClientKorea_Alpha_1110125_230823_1246.ipa
+. 2023-08-31 11:14:14.538 08-23-23  09:07PM            139152276 R2MClientKorea_Alpha_1110125_230823_2054.apk
+. 2023-08-31 11:14:14.538 08-23-23  09:05PM             67279844 R2MClientKorea_Alpha_1110125_230823_2054.ipa
+. 2023-08-31 11:14:14.538 08-24-23  01:51PM             67284249 R2MClientKorea_Alpha_1110125_230824_1341.ipa
+. 2023-08-31 11:14:14.538 08-24-23  01:54PM            139193184 R2MClientKorea_Alpha_1110125_230824_1342.apk
+. 2023-08-31 11:14:14.538 08-24-23  07:47PM            139243680 R2MClientKorea_Alpha_1110125_230824_1936.apk
+. 2023-08-31 11:14:14.538 08-24-23  07:48PM             67282638 R2MClientKorea_Alpha_1110125_230824_1936.ipa
+. 2023-08-31 11:14:14.538 08-25-23  01:07PM            139227540 R2MClientKorea_Alpha_1110125_230825_1254.apk
+. 2023-08-31 11:14:14.538 08-25-23  01:05PM             67282649 R2MClientKorea_Alpha_1110125_230825_1254.ipa
+. 2023-08-31 11:14:14.538 08-25-23  04:23PM            139247232 R2MClientKorea_Alpha_1110125_230825_1610.apk
+. 2023-08-31 11:14:14.538 08-25-23  04:21PM             67282356 R2MClientKorea_Alpha_1110125_230825_1610.ipa
+. 2023-08-31 11:14:14.538 08-25-23  05:22PM            139251832 R2MClientKorea_Alpha_1110125_230825_1711.apk
+. 2023-08-31 11:14:14.538 08-25-23  05:22PM             67283780 R2MClientKorea_Alpha_1110125_230825_1711.ipa
+. 2023-08-31 11:14:14.538 08-25-23  06:05PM            139243108 R2MClientKorea_Alpha_1110125_230825_1754.apk
+. 2023-08-31 11:14:14.538 08-25-23  06:05PM             67283889 R2MClientKorea_Alpha_1110125_230825_1754.ipa
+. 2023-08-31 11:14:14.538 08-25-23  07:14PM            139243352 R2MClientKorea_Alpha_1110125_230825_1903.apk
+. 2023-08-31 11:14:14.538 08-25-23  07:14PM             67283945 R2MClientKorea_Alpha_1110125_230825_1903.ipa
+. 2023-08-31 11:14:14.538 07-21-23  08:38PM             67796556 R2MClientKorea_Live_1100121_230721_2020.ipa
+. 2023-08-31 11:14:14.538 08-25-23  07:45PM             68055881 R2MClientKorea_Live_1110125_230825_1937.ipa
+. 2023-08-31 11:14:14.538 07-21-23  08:44PM             67028354 R2MClientKorea_Live_QA_1100121_230721_2034.ipa
+. 2023-08-31 11:14:14.538 07-27-23  02:28AM            110869376 R2MClientKorea_Live_QA_1101123_230727_0219.apk
+. 2023-08-31 11:14:14.538 08-25-23  08:03PM            111664704 R2MClientKorea_Live_QA_1110125_230825_1951.apk
+. 2023-08-31 11:14:14.538 08-25-23  08:01PM             67288963 R2MClientKorea_Live_QA_1110125_230825_1951.ipa
+. 2023-08-31 11:14:14.538 07-27-23  02:17AM             86449646 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk
+. 2023-08-31 11:14:14.538 08-25-23  07:50PM             86896110 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk
+. 2023-08-31 11:14:14.538 07-27-23  02:17AM             69217442 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk
+. 2023-08-31 11:14:14.538 08-25-23  07:50PM             69926050 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk
+. 2023-08-31 11:14:14.538 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.538 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 main.123.com.webzen.r2m.google.obb;-;42425993;2023-07-26T17:16:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 main.125.com.webzen.r2m.google.obb;-;42514299;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1100121_230721_2008.ipa;-;67016365;2023-07-21T11:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1101123_230727_0155.apk;-;138167152;2023-07-26T17:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230818_2000.ipa;-;67278107;2023-08-18T11:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230818_2002.apk;-;139215740;2023-08-18T11:13:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230821_2038.ipa;-;67280641;2023-08-21T11:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230821_2039.apk;-;139167616;2023-08-21T11:52:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230822_1950.apk;-;139191440;2023-08-22T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.538 R2MClientKorea_Alpha_1110125_230822_1950.ipa;-;67276925;2023-08-22T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230823_1246.apk;-;139189852;2023-08-23T03:58:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230823_1246.ipa;-;67282205;2023-08-23T03:56:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230823_2054.apk;-;139152276;2023-08-23T12:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230823_2054.ipa;-;67279844;2023-08-23T12:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230824_1341.ipa;-;67284249;2023-08-24T04:51:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230824_1342.apk;-;139193184;2023-08-24T04:54:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230824_1936.apk;-;139243680;2023-08-24T10:47:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230824_1936.ipa;-;67282638;2023-08-24T10:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1254.apk;-;139227540;2023-08-25T04:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1254.ipa;-;67282649;2023-08-25T04:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1610.apk;-;139247232;2023-08-25T07:23:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1610.ipa;-;67282356;2023-08-25T07:21:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1711.apk;-;139251832;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1711.ipa;-;67283780;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1754.apk;-;139243108;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1754.ipa;-;67283889;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1903.apk;-;139243352;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Alpha_1110125_230825_1903.ipa;-;67283945;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_1100121_230721_2020.ipa;-;67796556;2023-07-21T11:38:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_1110125_230825_1937.ipa;-;68055881;2023-08-25T10:45:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_QA_1100121_230721_2034.ipa;-;67028354;2023-07-21T11:44:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_QA_1101123_230727_0219.apk;-;110869376;2023-07-26T17:28:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_QA_1110125_230825_1951.apk;-;111664704;2023-08-25T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 R2MClientKorea_Live_QA_1110125_230825_1951.ipa;-;67288963;2023-08-25T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk;-;86449646;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk;-;86896110;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk;-;69217442;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk;-;69926050;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.539 Copying 17 files/directories to local directory "D:\Builds\KR"
+. 2023-08-31 11:14:14.539   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.539   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.539   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.539 File: '/Builds/KR/R2MClientKorea_Alpha_1100121_230721_2008.ipa' [2023-07-21T11:17:00.000Z] [67016365]
+. 2023-08-31 11:14:14.539 Copying "/Builds/KR/R2MClientKorea_Alpha_1100121_230721_2008.ipa" to local directory started.
+. 2023-08-31 11:14:14.539 Binary transfer mode selected.
+. 2023-08-31 11:14:14.539 /Builds/KR/R2MClientKorea_Alpha_1100121_230721_2008.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.540 Source file timestamp is [2023-07-21T11:17:00.000Z], destination timestamp is [2023-07-21T11:17:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.540 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.540 (EScpSkipFile) 
+. 2023-08-31 11:14:14.540 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2000.ipa' [2023-08-18T11:09:00.000Z] [67278107]
+. 2023-08-31 11:14:14.540 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2000.ipa" to local directory started.
+. 2023-08-31 11:14:14.540 Binary transfer mode selected.
+. 2023-08-31 11:14:14.540 /Builds/KR/R2MClientKorea_Alpha_1110125_230818_2000.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.540 Source file timestamp is [2023-08-18T11:09:00.000Z], destination timestamp is [2023-08-18T11:09:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.540 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.540 (EScpSkipFile) 
+. 2023-08-31 11:14:14.540 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2038.ipa' [2023-08-21T11:48:00.000Z] [67280641]
+. 2023-08-31 11:14:14.540 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2038.ipa" to local directory started.
+. 2023-08-31 11:14:14.540 Binary transfer mode selected.
+. 2023-08-31 11:14:14.540 /Builds/KR/R2MClientKorea_Alpha_1110125_230821_2038.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.540 Source file timestamp is [2023-08-21T11:48:00.000Z], destination timestamp is [2023-08-21T11:48:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.540 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.540 (EScpSkipFile) 
+. 2023-08-31 11:14:14.541 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.ipa' [2023-08-22T11:01:00.000Z] [67276925]
+. 2023-08-31 11:14:14.541 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.ipa" to local directory started.
+. 2023-08-31 11:14:14.541 Binary transfer mode selected.
+. 2023-08-31 11:14:14.541 /Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.541 Source file timestamp is [2023-08-22T11:01:00.000Z], destination timestamp is [2023-08-22T11:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.541 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.541 (EScpSkipFile) 
+. 2023-08-31 11:14:14.541 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.ipa' [2023-08-23T03:56:00.000Z] [67282205]
+. 2023-08-31 11:14:14.541 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.ipa" to local directory started.
+. 2023-08-31 11:14:14.541 Binary transfer mode selected.
+. 2023-08-31 11:14:14.541 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.541 Source file timestamp is [2023-08-23T03:56:00.000Z], destination timestamp is [2023-08-23T03:56:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.541 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.541 (EScpSkipFile) 
+. 2023-08-31 11:14:14.541 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.ipa' [2023-08-23T12:05:00.000Z] [67279844]
+. 2023-08-31 11:14:14.541 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.ipa" to local directory started.
+. 2023-08-31 11:14:14.541 Binary transfer mode selected.
+. 2023-08-31 11:14:14.541 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.541 Source file timestamp is [2023-08-23T12:05:00.000Z], destination timestamp is [2023-08-23T12:05:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.541 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.542 (EScpSkipFile) 
+. 2023-08-31 11:14:14.542 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1341.ipa' [2023-08-24T04:51:00.000Z] [67284249]
+. 2023-08-31 11:14:14.542 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1341.ipa" to local directory started.
+. 2023-08-31 11:14:14.542 Binary transfer mode selected.
+. 2023-08-31 11:14:14.542 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1341.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.542 Source file timestamp is [2023-08-24T04:51:00.000Z], destination timestamp is [2023-08-24T04:51:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.542 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.542 (EScpSkipFile) 
+. 2023-08-31 11:14:14.542 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.ipa' [2023-08-24T10:48:00.000Z] [67282638]
+. 2023-08-31 11:14:14.542 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.ipa" to local directory started.
+. 2023-08-31 11:14:14.542 Binary transfer mode selected.
+. 2023-08-31 11:14:14.542 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.542 Source file timestamp is [2023-08-24T10:48:00.000Z], destination timestamp is [2023-08-24T10:48:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.542 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.542 (EScpSkipFile) 
+. 2023-08-31 11:14:14.542 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.ipa' [2023-08-25T04:05:00.000Z] [67282649]
+. 2023-08-31 11:14:14.542 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.ipa" to local directory started.
+. 2023-08-31 11:14:14.542 Binary transfer mode selected.
+. 2023-08-31 11:14:14.543 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.543 Source file timestamp is [2023-08-25T04:05:00.000Z], destination timestamp is [2023-08-25T04:05:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.543 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.543 (EScpSkipFile) 
+. 2023-08-31 11:14:14.543 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.ipa' [2023-08-25T07:21:00.000Z] [67282356]
+. 2023-08-31 11:14:14.543 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.ipa" to local directory started.
+. 2023-08-31 11:14:14.543 Binary transfer mode selected.
+. 2023-08-31 11:14:14.543 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.543 Source file timestamp is [2023-08-25T07:21:00.000Z], destination timestamp is [2023-08-25T07:21:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.543 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.543 (EScpSkipFile) 
+. 2023-08-31 11:14:14.543 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.ipa' [2023-08-25T08:22:00.000Z] [67283780]
+. 2023-08-31 11:14:14.543 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.ipa" to local directory started.
+. 2023-08-31 11:14:14.543 Binary transfer mode selected.
+. 2023-08-31 11:14:14.543 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.543 Source file timestamp is [2023-08-25T08:22:00.000Z], destination timestamp is [2023-08-25T08:22:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.543 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.543 (EScpSkipFile) 
+. 2023-08-31 11:14:14.543 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.ipa' [2023-08-25T09:05:00.000Z] [67283889]
+. 2023-08-31 11:14:14.543 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.ipa" to local directory started.
+. 2023-08-31 11:14:14.543 Binary transfer mode selected.
+. 2023-08-31 11:14:14.544 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.544 Source file timestamp is [2023-08-25T09:05:00.000Z], destination timestamp is [2023-08-25T09:05:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.544 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.544 (EScpSkipFile) 
+. 2023-08-31 11:14:14.544 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.ipa' [2023-08-25T10:14:00.000Z] [67283945]
+. 2023-08-31 11:14:14.544 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.ipa" to local directory started.
+. 2023-08-31 11:14:14.544 Binary transfer mode selected.
+. 2023-08-31 11:14:14.544 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.544 Source file timestamp is [2023-08-25T10:14:00.000Z], destination timestamp is [2023-08-25T10:14:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.544 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.544 (EScpSkipFile) 
+. 2023-08-31 11:14:14.544 File: '/Builds/KR/R2MClientKorea_Live_1100121_230721_2020.ipa' [2023-07-21T11:38:00.000Z] [67796556]
+. 2023-08-31 11:14:14.544 Copying "/Builds/KR/R2MClientKorea_Live_1100121_230721_2020.ipa" to local directory started.
+. 2023-08-31 11:14:14.544 Binary transfer mode selected.
+. 2023-08-31 11:14:14.544 /Builds/KR/R2MClientKorea_Live_1100121_230721_2020.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.544 Source file timestamp is [2023-07-21T11:38:00.000Z], destination timestamp is [2023-07-21T11:38:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.544 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.544 (EScpSkipFile) 
+. 2023-08-31 11:14:14.544 File: '/Builds/KR/R2MClientKorea_Live_1110125_230825_1937.ipa' [2023-08-25T10:45:00.000Z] [68055881]
+. 2023-08-31 11:14:14.545 Copying "/Builds/KR/R2MClientKorea_Live_1110125_230825_1937.ipa" to local directory started.
+. 2023-08-31 11:14:14.545 Binary transfer mode selected.
+. 2023-08-31 11:14:14.545 /Builds/KR/R2MClientKorea_Live_1110125_230825_1937.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.545 Source file timestamp is [2023-08-25T10:45:00.000Z], destination timestamp is [2023-08-25T10:45:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.545 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.545 (EScpSkipFile) 
+. 2023-08-31 11:14:14.545 File: '/Builds/KR/R2MClientKorea_Live_QA_1100121_230721_2034.ipa' [2023-07-21T11:44:00.000Z] [67028354]
+. 2023-08-31 11:14:14.545 Copying "/Builds/KR/R2MClientKorea_Live_QA_1100121_230721_2034.ipa" to local directory started.
+. 2023-08-31 11:14:14.545 Binary transfer mode selected.
+. 2023-08-31 11:14:14.545 /Builds/KR/R2MClientKorea_Live_QA_1100121_230721_2034.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.545 Source file timestamp is [2023-07-21T11:44:00.000Z], destination timestamp is [2023-07-21T11:44:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.545 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.545 (EScpSkipFile) 
+. 2023-08-31 11:14:14.545 File: '/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.ipa' [2023-08-25T11:01:00.000Z] [67288963]
+. 2023-08-31 11:14:14.545 Copying "/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.ipa" to local directory started.
+. 2023-08-31 11:14:14.545 Binary transfer mode selected.
+. 2023-08-31 11:14:14.545 /Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.ipa의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.546 Source file timestamp is [2023-08-25T11:01:00.000Z], destination timestamp is [2023-08-25T11:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.546 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.546 (EScpSkipFile) 
+> 2023-08-31 11:14:14.546 Script: get -neweronly *.obb*
+. 2023-08-31 11:14:14.546 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.546 TYPE A
+< 2023-08-31 11:14:14.547 200 Type set to A.
+> 2023-08-31 11:14:14.547 PASV
+< 2023-08-31 11:14:14.549 227 Entering Passive Mode (10,103,0,1,93,227).
+> 2023-08-31 11:14:14.549 LIST -a
+. 2023-08-31 11:14:14.549 10.103.0.1:24035에 접속 중입니다.
+< 2023-08-31 11:14:14.554 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.554 226 Transfer complete.
+. 2023-08-31 11:14:14.555 07-27-23  02:16AM             42425993 main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.555 08-25-23  07:50PM             42514299 main.125.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.555 07-21-23  08:17PM             67016365 R2MClientKorea_Alpha_1100121_230721_2008.ipa
+. 2023-08-31 11:14:14.555 07-27-23  02:03AM            138167152 R2MClientKorea_Alpha_1101123_230727_0155.apk
+. 2023-08-31 11:14:14.555 08-18-23  08:09PM             67278107 R2MClientKorea_Alpha_1110125_230818_2000.ipa
+. 2023-08-31 11:14:14.555 08-18-23  08:13PM            139215740 R2MClientKorea_Alpha_1110125_230818_2002.apk
+. 2023-08-31 11:14:14.555 08-21-23  08:48PM             67280641 R2MClientKorea_Alpha_1110125_230821_2038.ipa
+. 2023-08-31 11:14:14.555 08-21-23  08:52PM            139167616 R2MClientKorea_Alpha_1110125_230821_2039.apk
+. 2023-08-31 11:14:14.555 08-22-23  08:03PM            139191440 R2MClientKorea_Alpha_1110125_230822_1950.apk
+. 2023-08-31 11:14:14.555 08-22-23  08:01PM             67276925 R2MClientKorea_Alpha_1110125_230822_1950.ipa
+. 2023-08-31 11:14:14.555 08-23-23  12:58PM            139189852 R2MClientKorea_Alpha_1110125_230823_1246.apk
+. 2023-08-31 11:14:14.555 08-23-23  12:56PM             67282205 R2MClientKorea_Alpha_1110125_230823_1246.ipa
+. 2023-08-31 11:14:14.555 08-23-23  09:07PM            139152276 R2MClientKorea_Alpha_1110125_230823_2054.apk
+. 2023-08-31 11:14:14.555 08-23-23  09:05PM             67279844 R2MClientKorea_Alpha_1110125_230823_2054.ipa
+. 2023-08-31 11:14:14.555 08-24-23  01:51PM             67284249 R2MClientKorea_Alpha_1110125_230824_1341.ipa
+. 2023-08-31 11:14:14.555 08-24-23  01:54PM            139193184 R2MClientKorea_Alpha_1110125_230824_1342.apk
+. 2023-08-31 11:14:14.555 08-24-23  07:47PM            139243680 R2MClientKorea_Alpha_1110125_230824_1936.apk
+. 2023-08-31 11:14:14.555 08-24-23  07:48PM             67282638 R2MClientKorea_Alpha_1110125_230824_1936.ipa
+. 2023-08-31 11:14:14.555 08-25-23  01:07PM            139227540 R2MClientKorea_Alpha_1110125_230825_1254.apk
+. 2023-08-31 11:14:14.555 08-25-23  01:05PM             67282649 R2MClientKorea_Alpha_1110125_230825_1254.ipa
+. 2023-08-31 11:14:14.555 08-25-23  04:23PM            139247232 R2MClientKorea_Alpha_1110125_230825_1610.apk
+. 2023-08-31 11:14:14.555 08-25-23  04:21PM             67282356 R2MClientKorea_Alpha_1110125_230825_1610.ipa
+. 2023-08-31 11:14:14.555 08-25-23  05:22PM            139251832 R2MClientKorea_Alpha_1110125_230825_1711.apk
+. 2023-08-31 11:14:14.555 08-25-23  05:22PM             67283780 R2MClientKorea_Alpha_1110125_230825_1711.ipa
+. 2023-08-31 11:14:14.555 08-25-23  06:05PM            139243108 R2MClientKorea_Alpha_1110125_230825_1754.apk
+. 2023-08-31 11:14:14.555 08-25-23  06:05PM             67283889 R2MClientKorea_Alpha_1110125_230825_1754.ipa
+. 2023-08-31 11:14:14.555 08-25-23  07:14PM            139243352 R2MClientKorea_Alpha_1110125_230825_1903.apk
+. 2023-08-31 11:14:14.555 08-25-23  07:14PM             67283945 R2MClientKorea_Alpha_1110125_230825_1903.ipa
+. 2023-08-31 11:14:14.555 07-21-23  08:38PM             67796556 R2MClientKorea_Live_1100121_230721_2020.ipa
+. 2023-08-31 11:14:14.555 08-25-23  07:45PM             68055881 R2MClientKorea_Live_1110125_230825_1937.ipa
+. 2023-08-31 11:14:14.555 07-21-23  08:44PM             67028354 R2MClientKorea_Live_QA_1100121_230721_2034.ipa
+. 2023-08-31 11:14:14.555 07-27-23  02:28AM            110869376 R2MClientKorea_Live_QA_1101123_230727_0219.apk
+. 2023-08-31 11:14:14.555 08-25-23  08:03PM            111664704 R2MClientKorea_Live_QA_1110125_230825_1951.apk
+. 2023-08-31 11:14:14.555 08-25-23  08:01PM             67288963 R2MClientKorea_Live_QA_1110125_230825_1951.ipa
+. 2023-08-31 11:14:14.555 07-27-23  02:17AM             86449646 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk
+. 2023-08-31 11:14:14.555 08-25-23  07:50PM             86896110 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk
+. 2023-08-31 11:14:14.555 07-27-23  02:17AM             69217442 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk
+. 2023-08-31 11:14:14.555 08-25-23  07:50PM             69926050 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk
+. 2023-08-31 11:14:14.555 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.555 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 main.123.com.webzen.r2m.google.obb;-;42425993;2023-07-26T17:16:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 main.125.com.webzen.r2m.google.obb;-;42514299;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1100121_230721_2008.ipa;-;67016365;2023-07-21T11:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1101123_230727_0155.apk;-;138167152;2023-07-26T17:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230818_2000.ipa;-;67278107;2023-08-18T11:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230818_2002.apk;-;139215740;2023-08-18T11:13:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230821_2038.ipa;-;67280641;2023-08-21T11:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230821_2039.apk;-;139167616;2023-08-21T11:52:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230822_1950.apk;-;139191440;2023-08-22T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.555 R2MClientKorea_Alpha_1110125_230822_1950.ipa;-;67276925;2023-08-22T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230823_1246.apk;-;139189852;2023-08-23T03:58:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230823_1246.ipa;-;67282205;2023-08-23T03:56:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230823_2054.apk;-;139152276;2023-08-23T12:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230823_2054.ipa;-;67279844;2023-08-23T12:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230824_1341.ipa;-;67284249;2023-08-24T04:51:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230824_1342.apk;-;139193184;2023-08-24T04:54:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230824_1936.apk;-;139243680;2023-08-24T10:47:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230824_1936.ipa;-;67282638;2023-08-24T10:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1254.apk;-;139227540;2023-08-25T04:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1254.ipa;-;67282649;2023-08-25T04:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1610.apk;-;139247232;2023-08-25T07:23:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1610.ipa;-;67282356;2023-08-25T07:21:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1711.apk;-;139251832;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1711.ipa;-;67283780;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1754.apk;-;139243108;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1754.ipa;-;67283889;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1903.apk;-;139243352;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Alpha_1110125_230825_1903.ipa;-;67283945;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_1100121_230721_2020.ipa;-;67796556;2023-07-21T11:38:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_1110125_230825_1937.ipa;-;68055881;2023-08-25T10:45:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_QA_1100121_230721_2034.ipa;-;67028354;2023-07-21T11:44:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_QA_1101123_230727_0219.apk;-;110869376;2023-07-26T17:28:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_QA_1110125_230825_1951.apk;-;111664704;2023-08-25T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 R2MClientKorea_Live_QA_1110125_230825_1951.ipa;-;67288963;2023-08-25T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk;-;86449646;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk;-;86896110;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk;-;69217442;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk;-;69926050;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.556 Copying 2 files/directories to local directory "D:\Builds\KR"
+. 2023-08-31 11:14:14.556   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.556   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.556   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.556 File: '/Builds/KR/main.123.com.webzen.r2m.google.obb' [2023-07-26T17:16:00.000Z] [42425993]
+. 2023-08-31 11:14:14.556 Copying "/Builds/KR/main.123.com.webzen.r2m.google.obb" to local directory started.
+. 2023-08-31 11:14:14.556 Binary transfer mode selected.
+. 2023-08-31 11:14:14.556 /Builds/KR/main.123.com.webzen.r2m.google.obb의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.557 Source file timestamp is [2023-07-26T17:16:00.000Z], destination timestamp is [2023-07-26T17:16:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.557 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.557 (EScpSkipFile) 
+. 2023-08-31 11:14:14.557 File: '/Builds/KR/main.125.com.webzen.r2m.google.obb' [2023-08-25T10:50:00.000Z] [42514299]
+. 2023-08-31 11:14:14.557 Copying "/Builds/KR/main.125.com.webzen.r2m.google.obb" to local directory started.
+. 2023-08-31 11:14:14.557 Binary transfer mode selected.
+. 2023-08-31 11:14:14.557 /Builds/KR/main.125.com.webzen.r2m.google.obb의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.557 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.557 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.557 (EScpSkipFile) 
+> 2023-08-31 11:14:14.557 Script: exit
+. 2023-08-31 11:14:14.557 Script: Exit code: 0
+. 2023-08-31 11:14:14.558 서버로부터 접속이 끊어졌습니다.
+. 2023-08-31 11:14:14.696 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.696 WinSCP 버전 5.7.4 (빌드 5553) (OS 10.0.19045 - Windows 10 Enterprise)
+. 2023-08-31 11:14:14.697 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2023-08-31 11:14:14.697 Log level: Normal
+. 2023-08-31 11:14:14.697 Local account: WEBZEN\mssung
+. 2023-08-31 11:14:14.697 Working directory: C:\Users\mssung\OneDrive\파이썬프로젝트\r2mTest\비디오인코더
+. 2023-08-31 11:14:14.697 Process ID: 23096
+. 2023-08-31 11:14:14.697 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=574 /consoleinstance=_12444_437 "/log=upload.log" "/command" "open ftp://mssung@webzen.com:webzen@2308@nas.webzen.co.kr:23145" "cd /Builds/KR" "lcd ""C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\KR""" "get -neweronly *.apk*" "get -neweronly *.obb*" "exit" 
+. 2023-08-31 11:14:14.697 Time zone: Current: GMT+9 (대한민국 표준시), No DST
+. 2023-08-31 11:14:14.697 Login time: 2023년 8월 31일 목요일 오전 11:14:14
+. 2023-08-31 11:14:14.697 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.697 Script: Retrospectively logging previous script records:
+> 2023-08-31 11:14:14.697 Script: open ftp://mssung@webzen.com:***@nas.webzen.co.kr:23145
+. 2023-08-31 11:14:14.697 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.697 Session name: mssung@webzen.com@nas.webzen.co.kr (Ad-Hoc site)
+. 2023-08-31 11:14:14.697 Host name: nas.webzen.co.kr (Port: 23145)
+. 2023-08-31 11:14:14.697 User name: mssung@webzen.com (Password: Yes, Key file: No)
+. 2023-08-31 11:14:14.697 Transfer Protocol: FTP
+. 2023-08-31 11:14:14.697 Ping type: C, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-08-31 11:14:14.697 Disable Nagle: No
+. 2023-08-31 11:14:14.697 Proxy: none
+. 2023-08-31 11:14:14.697 Send buffer: 262144
+. 2023-08-31 11:14:14.697 UTF: 2
+. 2023-08-31 11:14:14.697 FTP: FTPS: None; Passive: Yes [Force IP: A]; MLSD: A [List all: A]
+. 2023-08-31 11:14:14.697 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-08-31 11:14:14.697 Cache directory changes: Yes, Permanent: Yes
+. 2023-08-31 11:14:14.697 Timezone offset: 0h 0m
+. 2023-08-31 11:14:14.697 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.704 nas.webzen.co.kr:23145에 접속 중입니다.
+. 2023-08-31 11:14:14.714 nas.webzen.co.kr:23145에 접속되었습니다. 환영 메시지를 기다리는 중 입니다...
+< 2023-08-31 11:14:14.717 220 Microsoft FTP Service
+> 2023-08-31 11:14:14.717 USER mssung@webzen.com
+< 2023-08-31 11:14:14.718 331 Password required
+> 2023-08-31 11:14:14.718 PASS ***********
+< 2023-08-31 11:14:14.722 230 User logged in.
+> 2023-08-31 11:14:14.722 SYST
+< 2023-08-31 11:14:14.725 215 Windows_NT
+> 2023-08-31 11:14:14.725 FEAT
+< 2023-08-31 11:14:14.727 211-Extended features supported:
+< 2023-08-31 11:14:14.727  LANG EN*
+< 2023-08-31 11:14:14.727  UTF8
+< 2023-08-31 11:14:14.727  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2023-08-31 11:14:14.727  PBSZ
+< 2023-08-31 11:14:14.727  PROT C;P;
+< 2023-08-31 11:14:14.727  CCC
+< 2023-08-31 11:14:14.727  HOST
+< 2023-08-31 11:14:14.727  SIZE
+< 2023-08-31 11:14:14.727  MDTM
+< 2023-08-31 11:14:14.727  REST STREAM
+< 2023-08-31 11:14:14.727 211 END
+> 2023-08-31 11:14:14.727 OPTS UTF8 ON
+< 2023-08-31 11:14:14.728 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2023-08-31 11:14:14.728 접속되었습니다.
+. 2023-08-31 11:14:14.728 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.728 Using FTP protocol.
+. 2023-08-31 11:14:14.728 Doing startup conversation with host.
+> 2023-08-31 11:14:14.729 PWD
+< 2023-08-31 11:14:14.730 257 "/" is current directory.
+. 2023-08-31 11:14:14.730 Getting current directory name.
+. 2023-08-31 11:14:14.730 Startup conversation with host finished.
+< 2023-08-31 11:14:14.731 Script: 활성화된 세션: [1] mssung@webzen.com@nas.webzen.co.kr
+> 2023-08-31 11:14:14.731 Script: cd /Builds/KR
+. 2023-08-31 11:14:14.731 Cached directory change via "/Builds/KR" to "/Builds/KR".
+. 2023-08-31 11:14:14.731 Getting current directory name.
+< 2023-08-31 11:14:14.731 Script: /Builds/KR
+> 2023-08-31 11:14:14.731 Script: lcd "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\KR"
+< 2023-08-31 11:14:14.732 Script: C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\KR
+> 2023-08-31 11:14:14.732 Script: get -neweronly *.apk*
+. 2023-08-31 11:14:14.732 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.732 CWD /Builds/KR/
+< 2023-08-31 11:14:14.737 250 CWD command successful.
+> 2023-08-31 11:14:14.737 PWD
+< 2023-08-31 11:14:14.738 257 "/Builds/KR" is current directory.
+> 2023-08-31 11:14:14.738 TYPE A
+< 2023-08-31 11:14:14.740 200 Type set to A.
+> 2023-08-31 11:14:14.740 PASV
+< 2023-08-31 11:14:14.742 227 Entering Passive Mode (10,103,0,1,95,144).
+> 2023-08-31 11:14:14.742 LIST -a
+. 2023-08-31 11:14:14.742 10.103.0.1:24464에 접속 중입니다.
+< 2023-08-31 11:14:14.747 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.748 226 Transfer complete.
+. 2023-08-31 11:14:14.748 07-27-23  02:16AM             42425993 main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.760 08-25-23  07:50PM             42514299 main.125.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.760 07-21-23  08:17PM             67016365 R2MClientKorea_Alpha_1100121_230721_2008.ipa
+. 2023-08-31 11:14:14.760 07-27-23  02:03AM            138167152 R2MClientKorea_Alpha_1101123_230727_0155.apk
+. 2023-08-31 11:14:14.760 08-18-23  08:09PM             67278107 R2MClientKorea_Alpha_1110125_230818_2000.ipa
+. 2023-08-31 11:14:14.760 08-18-23  08:13PM            139215740 R2MClientKorea_Alpha_1110125_230818_2002.apk
+. 2023-08-31 11:14:14.760 08-21-23  08:48PM             67280641 R2MClientKorea_Alpha_1110125_230821_2038.ipa
+. 2023-08-31 11:14:14.760 08-21-23  08:52PM            139167616 R2MClientKorea_Alpha_1110125_230821_2039.apk
+. 2023-08-31 11:14:14.760 08-22-23  08:03PM            139191440 R2MClientKorea_Alpha_1110125_230822_1950.apk
+. 2023-08-31 11:14:14.760 08-22-23  08:01PM             67276925 R2MClientKorea_Alpha_1110125_230822_1950.ipa
+. 2023-08-31 11:14:14.760 08-23-23  12:58PM            139189852 R2MClientKorea_Alpha_1110125_230823_1246.apk
+. 2023-08-31 11:14:14.760 08-23-23  12:56PM             67282205 R2MClientKorea_Alpha_1110125_230823_1246.ipa
+. 2023-08-31 11:14:14.760 08-23-23  09:07PM            139152276 R2MClientKorea_Alpha_1110125_230823_2054.apk
+. 2023-08-31 11:14:14.760 08-23-23  09:05PM             67279844 R2MClientKorea_Alpha_1110125_230823_2054.ipa
+. 2023-08-31 11:14:14.760 08-24-23  01:51PM             67284249 R2MClientKorea_Alpha_1110125_230824_1341.ipa
+. 2023-08-31 11:14:14.760 08-24-23  01:54PM            139193184 R2MClientKorea_Alpha_1110125_230824_1342.apk
+. 2023-08-31 11:14:14.760 08-24-23  07:47PM            139243680 R2MClientKorea_Alpha_1110125_230824_1936.apk
+. 2023-08-31 11:14:14.760 08-24-23  07:48PM             67282638 R2MClientKorea_Alpha_1110125_230824_1936.ipa
+. 2023-08-31 11:14:14.760 08-25-23  01:07PM            139227540 R2MClientKorea_Alpha_1110125_230825_1254.apk
+. 2023-08-31 11:14:14.760 08-25-23  01:05PM             67282649 R2MClientKorea_Alpha_1110125_230825_1254.ipa
+. 2023-08-31 11:14:14.760 08-25-23  04:23PM            139247232 R2MClientKorea_Alpha_1110125_230825_1610.apk
+. 2023-08-31 11:14:14.760 08-25-23  04:21PM             67282356 R2MClientKorea_Alpha_1110125_230825_1610.ipa
+. 2023-08-31 11:14:14.760 08-25-23  05:22PM            139251832 R2MClientKorea_Alpha_1110125_230825_1711.apk
+. 2023-08-31 11:14:14.760 08-25-23  05:22PM             67283780 R2MClientKorea_Alpha_1110125_230825_1711.ipa
+. 2023-08-31 11:14:14.760 08-25-23  06:05PM            139243108 R2MClientKorea_Alpha_1110125_230825_1754.apk
+. 2023-08-31 11:14:14.760 08-25-23  06:05PM             67283889 R2MClientKorea_Alpha_1110125_230825_1754.ipa
+. 2023-08-31 11:14:14.760 08-25-23  07:14PM            139243352 R2MClientKorea_Alpha_1110125_230825_1903.apk
+. 2023-08-31 11:14:14.760 08-25-23  07:14PM             67283945 R2MClientKorea_Alpha_1110125_230825_1903.ipa
+. 2023-08-31 11:14:14.760 07-21-23  08:38PM             67796556 R2MClientKorea_Live_1100121_230721_2020.ipa
+. 2023-08-31 11:14:14.760 08-25-23  07:45PM             68055881 R2MClientKorea_Live_1110125_230825_1937.ipa
+. 2023-08-31 11:14:14.760 07-21-23  08:44PM             67028354 R2MClientKorea_Live_QA_1100121_230721_2034.ipa
+. 2023-08-31 11:14:14.760 07-27-23  02:28AM            110869376 R2MClientKorea_Live_QA_1101123_230727_0219.apk
+. 2023-08-31 11:14:14.760 08-25-23  08:03PM            111664704 R2MClientKorea_Live_QA_1110125_230825_1951.apk
+. 2023-08-31 11:14:14.760 08-25-23  08:01PM             67288963 R2MClientKorea_Live_QA_1110125_230825_1951.ipa
+. 2023-08-31 11:14:14.760 07-27-23  02:17AM             86449646 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk
+. 2023-08-31 11:14:14.760 08-25-23  07:50PM             86896110 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk
+. 2023-08-31 11:14:14.760 07-27-23  02:17AM             69217442 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk
+. 2023-08-31 11:14:14.760 08-25-23  07:50PM             69926050 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk
+. 2023-08-31 11:14:14.760 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.760 Detecting timezone difference...
+. 2023-08-31 11:14:14.760 파일 정보 검색 중...
+> 2023-08-31 11:14:14.760 PWD
+< 2023-08-31 11:14:14.760 257 "/Builds/KR" is current directory.
+> 2023-08-31 11:14:14.760 CWD /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.765 550 The filename, directory name, or volume label syntax is incorrect. 
+> 2023-08-31 11:14:14.765 TYPE I
+< 2023-08-31 11:14:14.766 200 Type set to I.
+> 2023-08-31 11:14:14.766 SIZE /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.770 213 42425993
+> 2023-08-31 11:14:14.770 MDTM /Builds/KR/main.123.com.webzen.r2m.google.obb
+< 2023-08-31 11:14:14.775 213 20230726171635
+. 2023-08-31 11:14:14.775 파일 정보 검색을 성공 하였습니다.
+. 2023-08-31 11:14:14.775 No timezone difference detected using file /Builds/KR/main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.775 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 main.123.com.webzen.r2m.google.obb;-;42425993;2023-07-26T17:16:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 main.125.com.webzen.r2m.google.obb;-;42514299;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1100121_230721_2008.ipa;-;67016365;2023-07-21T11:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1101123_230727_0155.apk;-;138167152;2023-07-26T17:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1110125_230818_2000.ipa;-;67278107;2023-08-18T11:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1110125_230818_2002.apk;-;139215740;2023-08-18T11:13:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1110125_230821_2038.ipa;-;67280641;2023-08-21T11:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.775 R2MClientKorea_Alpha_1110125_230821_2039.apk;-;139167616;2023-08-21T11:52:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230822_1950.apk;-;139191440;2023-08-22T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230822_1950.ipa;-;67276925;2023-08-22T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230823_1246.apk;-;139189852;2023-08-23T03:58:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230823_1246.ipa;-;67282205;2023-08-23T03:56:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230823_2054.apk;-;139152276;2023-08-23T12:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230823_2054.ipa;-;67279844;2023-08-23T12:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230824_1341.ipa;-;67284249;2023-08-24T04:51:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230824_1342.apk;-;139193184;2023-08-24T04:54:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230824_1936.apk;-;139243680;2023-08-24T10:47:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230824_1936.ipa;-;67282638;2023-08-24T10:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1254.apk;-;139227540;2023-08-25T04:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1254.ipa;-;67282649;2023-08-25T04:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1610.apk;-;139247232;2023-08-25T07:23:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1610.ipa;-;67282356;2023-08-25T07:21:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1711.apk;-;139251832;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1711.ipa;-;67283780;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1754.apk;-;139243108;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1754.ipa;-;67283889;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1903.apk;-;139243352;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Alpha_1110125_230825_1903.ipa;-;67283945;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_1100121_230721_2020.ipa;-;67796556;2023-07-21T11:38:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_1110125_230825_1937.ipa;-;68055881;2023-08-25T10:45:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_QA_1100121_230721_2034.ipa;-;67028354;2023-07-21T11:44:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_QA_1101123_230727_0219.apk;-;110869376;2023-07-26T17:28:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_QA_1110125_230825_1951.apk;-;111664704;2023-08-25T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 R2MClientKorea_Live_QA_1110125_230825_1951.ipa;-;67288963;2023-08-25T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk;-;86449646;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk;-;86896110;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk;-;69217442;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk;-;69926050;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.776 Copying 19 files/directories to local directory "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\KR"
+. 2023-08-31 11:14:14.776   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.776   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.776   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.776 File: '/Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk' [2023-07-26T17:03:00.000Z] [138167152]
+. 2023-08-31 11:14:14.776 Copying "/Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk" to local directory started.
+. 2023-08-31 11:14:14.776 Binary transfer mode selected.
+. 2023-08-31 11:14:14.778 /Builds/KR/R2MClientKorea_Alpha_1101123_230727_0155.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.778 Source file timestamp is [2023-07-26T17:03:00.000Z], destination timestamp is [2023-07-26T17:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.779 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.779 (EScpSkipFile) 
+. 2023-08-31 11:14:14.779 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk' [2023-08-18T11:13:00.000Z] [139215740]
+. 2023-08-31 11:14:14.779 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk" to local directory started.
+. 2023-08-31 11:14:14.779 Binary transfer mode selected.
+. 2023-08-31 11:14:14.780 /Builds/KR/R2MClientKorea_Alpha_1110125_230818_2002.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.780 Source file timestamp is [2023-08-18T11:13:00.000Z], destination timestamp is [2023-08-18T11:13:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.780 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.780 (EScpSkipFile) 
+. 2023-08-31 11:14:14.780 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk' [2023-08-21T11:52:00.000Z] [139167616]
+. 2023-08-31 11:14:14.780 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk" to local directory started.
+. 2023-08-31 11:14:14.780 Binary transfer mode selected.
+. 2023-08-31 11:14:14.781 /Builds/KR/R2MClientKorea_Alpha_1110125_230821_2039.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.781 Source file timestamp is [2023-08-21T11:52:00.000Z], destination timestamp is [2023-08-21T11:52:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.781 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.781 (EScpSkipFile) 
+. 2023-08-31 11:14:14.781 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk' [2023-08-22T11:03:00.000Z] [139191440]
+. 2023-08-31 11:14:14.781 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk" to local directory started.
+. 2023-08-31 11:14:14.781 Binary transfer mode selected.
+. 2023-08-31 11:14:14.782 /Builds/KR/R2MClientKorea_Alpha_1110125_230822_1950.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.782 Source file timestamp is [2023-08-22T11:03:00.000Z], destination timestamp is [2023-08-22T11:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.782 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.782 (EScpSkipFile) 
+. 2023-08-31 11:14:14.782 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk' [2023-08-23T03:58:00.000Z] [139189852]
+. 2023-08-31 11:14:14.782 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk" to local directory started.
+. 2023-08-31 11:14:14.782 Binary transfer mode selected.
+. 2023-08-31 11:14:14.783 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_1246.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.783 Source file timestamp is [2023-08-23T03:58:00.000Z], destination timestamp is [2023-08-23T03:58:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.783 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.783 (EScpSkipFile) 
+. 2023-08-31 11:14:14.783 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk' [2023-08-23T12:07:00.000Z] [139152276]
+. 2023-08-31 11:14:14.783 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk" to local directory started.
+. 2023-08-31 11:14:14.783 Binary transfer mode selected.
+. 2023-08-31 11:14:14.784 /Builds/KR/R2MClientKorea_Alpha_1110125_230823_2054.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.784 Source file timestamp is [2023-08-23T12:07:00.000Z], destination timestamp is [2023-08-23T12:07:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.784 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.784 (EScpSkipFile) 
+. 2023-08-31 11:14:14.784 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk' [2023-08-24T04:54:00.000Z] [139193184]
+. 2023-08-31 11:14:14.784 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk" to local directory started.
+. 2023-08-31 11:14:14.784 Binary transfer mode selected.
+. 2023-08-31 11:14:14.785 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1342.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.785 Source file timestamp is [2023-08-24T04:54:00.000Z], destination timestamp is [2023-08-24T04:54:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.786 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.786 (EScpSkipFile) 
+. 2023-08-31 11:14:14.786 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk' [2023-08-24T10:47:00.000Z] [139243680]
+. 2023-08-31 11:14:14.786 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk" to local directory started.
+. 2023-08-31 11:14:14.786 Binary transfer mode selected.
+. 2023-08-31 11:14:14.786 /Builds/KR/R2MClientKorea_Alpha_1110125_230824_1936.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.786 Source file timestamp is [2023-08-24T10:47:00.000Z], destination timestamp is [2023-08-24T10:47:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.786 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.786 (EScpSkipFile) 
+. 2023-08-31 11:14:14.786 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk' [2023-08-25T04:07:00.000Z] [139227540]
+. 2023-08-31 11:14:14.786 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk" to local directory started.
+. 2023-08-31 11:14:14.786 Binary transfer mode selected.
+. 2023-08-31 11:14:14.787 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1254.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.787 Source file timestamp is [2023-08-25T04:07:00.000Z], destination timestamp is [2023-08-25T04:07:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.787 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.787 (EScpSkipFile) 
+. 2023-08-31 11:14:14.787 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk' [2023-08-25T07:23:00.000Z] [139247232]
+. 2023-08-31 11:14:14.787 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk" to local directory started.
+. 2023-08-31 11:14:14.787 Binary transfer mode selected.
+. 2023-08-31 11:14:14.788 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1610.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.788 Source file timestamp is [2023-08-25T07:23:00.000Z], destination timestamp is [2023-08-25T07:23:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.788 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.788 (EScpSkipFile) 
+. 2023-08-31 11:14:14.788 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk' [2023-08-25T08:22:00.000Z] [139251832]
+. 2023-08-31 11:14:14.788 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk" to local directory started.
+. 2023-08-31 11:14:14.788 Binary transfer mode selected.
+. 2023-08-31 11:14:14.789 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1711.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.790 Source file timestamp is [2023-08-25T08:22:00.000Z], destination timestamp is [2023-08-25T08:22:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.790 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.790 (EScpSkipFile) 
+. 2023-08-31 11:14:14.790 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk' [2023-08-25T09:05:00.000Z] [139243108]
+. 2023-08-31 11:14:14.790 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk" to local directory started.
+. 2023-08-31 11:14:14.790 Binary transfer mode selected.
+. 2023-08-31 11:14:14.791 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1754.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.791 Source file timestamp is [2023-08-25T09:05:00.000Z], destination timestamp is [2023-08-25T09:05:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.791 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.791 (EScpSkipFile) 
+. 2023-08-31 11:14:14.791 File: '/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk' [2023-08-25T10:14:00.000Z] [139243352]
+. 2023-08-31 11:14:14.791 Copying "/Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk" to local directory started.
+. 2023-08-31 11:14:14.791 Binary transfer mode selected.
+. 2023-08-31 11:14:14.792 /Builds/KR/R2MClientKorea_Alpha_1110125_230825_1903.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.792 Source file timestamp is [2023-08-25T10:14:00.000Z], destination timestamp is [2023-08-25T10:14:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.792 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.792 (EScpSkipFile) 
+. 2023-08-31 11:14:14.792 File: '/Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk' [2023-07-26T17:28:00.000Z] [110869376]
+. 2023-08-31 11:14:14.793 Copying "/Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk" to local directory started.
+. 2023-08-31 11:14:14.793 Binary transfer mode selected.
+. 2023-08-31 11:14:14.794 /Builds/KR/R2MClientKorea_Live_QA_1101123_230727_0219.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.794 Source file timestamp is [2023-07-26T17:28:00.000Z], destination timestamp is [2023-07-26T17:28:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.794 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.794 (EScpSkipFile) 
+. 2023-08-31 11:14:14.794 File: '/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk' [2023-08-25T11:03:00.000Z] [111664704]
+. 2023-08-31 11:14:14.794 Copying "/Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk" to local directory started.
+. 2023-08-31 11:14:14.794 Binary transfer mode selected.
+. 2023-08-31 11:14:14.795 /Builds/KR/R2MClientKorea_Live_QA_1110125_230825_1951.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.795 Source file timestamp is [2023-08-25T11:03:00.000Z], destination timestamp is [2023-08-25T11:03:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.795 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.795 (EScpSkipFile) 
+. 2023-08-31 11:14:14.795 File: '/Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk' [2023-07-26T17:17:00.000Z] [86449646]
+. 2023-08-31 11:14:14.796 Copying "/Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk" to local directory started.
+. 2023-08-31 11:14:14.796 Binary transfer mode selected.
+. 2023-08-31 11:14:14.796 /Builds/KR/signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.797 Source file timestamp is [2023-07-26T17:17:00.000Z], destination timestamp is [2023-07-26T17:17:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.797 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.797 (EScpSkipFile) 
+. 2023-08-31 11:14:14.797 File: '/Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk' [2023-08-25T10:50:00.000Z] [86896110]
+. 2023-08-31 11:14:14.797 Copying "/Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk" to local directory started.
+. 2023-08-31 11:14:14.797 Binary transfer mode selected.
+. 2023-08-31 11:14:14.798 /Builds/KR/signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.798 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.798 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.798 (EScpSkipFile) 
+. 2023-08-31 11:14:14.798 File: '/Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk' [2023-07-26T17:17:00.000Z] [69217442]
+. 2023-08-31 11:14:14.798 Copying "/Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk" to local directory started.
+. 2023-08-31 11:14:14.798 Binary transfer mode selected.
+. 2023-08-31 11:14:14.798 /Builds/KR/signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.799 Source file timestamp is [2023-07-26T17:17:00.000Z], destination timestamp is [2023-07-26T17:17:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.799 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.799 (EScpSkipFile) 
+. 2023-08-31 11:14:14.799 File: '/Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk' [2023-08-25T10:50:00.000Z] [69926050]
+. 2023-08-31 11:14:14.799 Copying "/Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk" to local directory started.
+. 2023-08-31 11:14:14.799 Binary transfer mode selected.
+. 2023-08-31 11:14:14.799 /Builds/KR/signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.800 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.800 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.800 (EScpSkipFile) 
+> 2023-08-31 11:14:14.800 Script: get -neweronly *.obb*
+. 2023-08-31 11:14:14.800 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.800 TYPE A
+< 2023-08-31 11:14:14.801 200 Type set to A.
+> 2023-08-31 11:14:14.801 PASV
+< 2023-08-31 11:14:14.802 227 Entering Passive Mode (10,103,0,1,94,113).
+> 2023-08-31 11:14:14.802 LIST -a
+. 2023-08-31 11:14:14.802 10.103.0.1:24177에 접속 중입니다.
+< 2023-08-31 11:14:14.808 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:14.808 226 Transfer complete.
+. 2023-08-31 11:14:14.809 07-27-23  02:16AM             42425993 main.123.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.809 08-25-23  07:50PM             42514299 main.125.com.webzen.r2m.google.obb
+. 2023-08-31 11:14:14.809 07-21-23  08:17PM             67016365 R2MClientKorea_Alpha_1100121_230721_2008.ipa
+. 2023-08-31 11:14:14.809 07-27-23  02:03AM            138167152 R2MClientKorea_Alpha_1101123_230727_0155.apk
+. 2023-08-31 11:14:14.809 08-18-23  08:09PM             67278107 R2MClientKorea_Alpha_1110125_230818_2000.ipa
+. 2023-08-31 11:14:14.809 08-18-23  08:13PM            139215740 R2MClientKorea_Alpha_1110125_230818_2002.apk
+. 2023-08-31 11:14:14.809 08-21-23  08:48PM             67280641 R2MClientKorea_Alpha_1110125_230821_2038.ipa
+. 2023-08-31 11:14:14.809 08-21-23  08:52PM            139167616 R2MClientKorea_Alpha_1110125_230821_2039.apk
+. 2023-08-31 11:14:14.809 08-22-23  08:03PM            139191440 R2MClientKorea_Alpha_1110125_230822_1950.apk
+. 2023-08-31 11:14:14.809 08-22-23  08:01PM             67276925 R2MClientKorea_Alpha_1110125_230822_1950.ipa
+. 2023-08-31 11:14:14.809 08-23-23  12:58PM            139189852 R2MClientKorea_Alpha_1110125_230823_1246.apk
+. 2023-08-31 11:14:14.809 08-23-23  12:56PM             67282205 R2MClientKorea_Alpha_1110125_230823_1246.ipa
+. 2023-08-31 11:14:14.809 08-23-23  09:07PM            139152276 R2MClientKorea_Alpha_1110125_230823_2054.apk
+. 2023-08-31 11:14:14.809 08-23-23  09:05PM             67279844 R2MClientKorea_Alpha_1110125_230823_2054.ipa
+. 2023-08-31 11:14:14.809 08-24-23  01:51PM             67284249 R2MClientKorea_Alpha_1110125_230824_1341.ipa
+. 2023-08-31 11:14:14.809 08-24-23  01:54PM            139193184 R2MClientKorea_Alpha_1110125_230824_1342.apk
+. 2023-08-31 11:14:14.809 08-24-23  07:47PM            139243680 R2MClientKorea_Alpha_1110125_230824_1936.apk
+. 2023-08-31 11:14:14.809 08-24-23  07:48PM             67282638 R2MClientKorea_Alpha_1110125_230824_1936.ipa
+. 2023-08-31 11:14:14.809 08-25-23  01:07PM            139227540 R2MClientKorea_Alpha_1110125_230825_1254.apk
+. 2023-08-31 11:14:14.809 08-25-23  01:05PM             67282649 R2MClientKorea_Alpha_1110125_230825_1254.ipa
+. 2023-08-31 11:14:14.809 08-25-23  04:23PM            139247232 R2MClientKorea_Alpha_1110125_230825_1610.apk
+. 2023-08-31 11:14:14.809 08-25-23  04:21PM             67282356 R2MClientKorea_Alpha_1110125_230825_1610.ipa
+. 2023-08-31 11:14:14.809 08-25-23  05:22PM            139251832 R2MClientKorea_Alpha_1110125_230825_1711.apk
+. 2023-08-31 11:14:14.809 08-25-23  05:22PM             67283780 R2MClientKorea_Alpha_1110125_230825_1711.ipa
+. 2023-08-31 11:14:14.809 08-25-23  06:05PM            139243108 R2MClientKorea_Alpha_1110125_230825_1754.apk
+. 2023-08-31 11:14:14.809 08-25-23  06:05PM             67283889 R2MClientKorea_Alpha_1110125_230825_1754.ipa
+. 2023-08-31 11:14:14.809 08-25-23  07:14PM            139243352 R2MClientKorea_Alpha_1110125_230825_1903.apk
+. 2023-08-31 11:14:14.809 08-25-23  07:14PM             67283945 R2MClientKorea_Alpha_1110125_230825_1903.ipa
+. 2023-08-31 11:14:14.809 07-21-23  08:38PM             67796556 R2MClientKorea_Live_1100121_230721_2020.ipa
+. 2023-08-31 11:14:14.809 08-25-23  07:45PM             68055881 R2MClientKorea_Live_1110125_230825_1937.ipa
+. 2023-08-31 11:14:14.809 07-21-23  08:44PM             67028354 R2MClientKorea_Live_QA_1100121_230721_2034.ipa
+. 2023-08-31 11:14:14.809 07-27-23  02:28AM            110869376 R2MClientKorea_Live_QA_1101123_230727_0219.apk
+. 2023-08-31 11:14:14.809 08-25-23  08:03PM            111664704 R2MClientKorea_Live_QA_1110125_230825_1951.apk
+. 2023-08-31 11:14:14.809 08-25-23  08:01PM             67288963 R2MClientKorea_Live_QA_1110125_230825_1951.ipa
+. 2023-08-31 11:14:14.809 07-27-23  02:17AM             86449646 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk
+. 2023-08-31 11:14:14.809 08-25-23  07:50PM             86896110 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk
+. 2023-08-31 11:14:14.809 07-27-23  02:17AM             69217442 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk
+. 2023-08-31 11:14:14.809 08-25-23  07:50PM             69926050 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk
+. 2023-08-31 11:14:14.809 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:14.809 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 main.123.com.webzen.r2m.google.obb;-;42425993;2023-07-26T17:16:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 main.125.com.webzen.r2m.google.obb;-;42514299;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1100121_230721_2008.ipa;-;67016365;2023-07-21T11:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1101123_230727_0155.apk;-;138167152;2023-07-26T17:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230818_2000.ipa;-;67278107;2023-08-18T11:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230818_2002.apk;-;139215740;2023-08-18T11:13:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230821_2038.ipa;-;67280641;2023-08-21T11:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230821_2039.apk;-;139167616;2023-08-21T11:52:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230822_1950.apk;-;139191440;2023-08-22T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230822_1950.ipa;-;67276925;2023-08-22T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230823_1246.apk;-;139189852;2023-08-23T03:58:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230823_1246.ipa;-;67282205;2023-08-23T03:56:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230823_2054.apk;-;139152276;2023-08-23T12:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230823_2054.ipa;-;67279844;2023-08-23T12:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230824_1341.ipa;-;67284249;2023-08-24T04:51:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230824_1342.apk;-;139193184;2023-08-24T04:54:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230824_1936.apk;-;139243680;2023-08-24T10:47:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230824_1936.ipa;-;67282638;2023-08-24T10:48:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1254.apk;-;139227540;2023-08-25T04:07:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1254.ipa;-;67282649;2023-08-25T04:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1610.apk;-;139247232;2023-08-25T07:23:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1610.ipa;-;67282356;2023-08-25T07:21:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1711.apk;-;139251832;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1711.ipa;-;67283780;2023-08-25T08:22:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1754.apk;-;139243108;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1754.ipa;-;67283889;2023-08-25T09:05:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1903.apk;-;139243352;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Alpha_1110125_230825_1903.ipa;-;67283945;2023-08-25T10:14:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_1100121_230721_2020.ipa;-;67796556;2023-07-21T11:38:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_1110125_230825_1937.ipa;-;68055881;2023-08-25T10:45:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_QA_1100121_230721_2034.ipa;-;67028354;2023-07-21T11:44:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_QA_1101123_230727_0219.apk;-;110869376;2023-07-26T17:28:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_QA_1110125_230825_1951.apk;-;111664704;2023-08-25T11:03:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 R2MClientKorea_Live_QA_1110125_230825_1951.ipa;-;67288963;2023-08-25T11:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 signed_gxs_R2MClientKorea_AoP_1101124_230727_0211_1690391700628640.apk;-;86449646;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 signed_gxs_R2MClientKorea_AoP_1110126_230825_1937_1692960289326226.apk;-;86896110;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 signed_gxs_R2MClientKorea_Live_1101123_230727_0206_1690391500290925.apk;-;69217442;2023-07-26T17:17:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 signed_gxs_R2MClientKorea_Live_1110125_230825_1937_1692960289341358.apk;-;69926050;2023-08-25T10:50:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:14.810 Copying 2 files/directories to local directory "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\KR"
+. 2023-08-31 11:14:14.810   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:14.810   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:14.810   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:14.810 File: '/Builds/KR/main.123.com.webzen.r2m.google.obb' [2023-07-26T17:16:00.000Z] [42425993]
+. 2023-08-31 11:14:14.810 Copying "/Builds/KR/main.123.com.webzen.r2m.google.obb" to local directory started.
+. 2023-08-31 11:14:14.810 Binary transfer mode selected.
+. 2023-08-31 11:14:14.811 /Builds/KR/main.123.com.webzen.r2m.google.obb의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.811 Source file timestamp is [2023-07-26T17:16:00.000Z], destination timestamp is [2023-07-26T17:16:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.811 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.811 (EScpSkipFile) 
+. 2023-08-31 11:14:14.811 File: '/Builds/KR/main.125.com.webzen.r2m.google.obb' [2023-08-25T10:50:00.000Z] [42514299]
+. 2023-08-31 11:14:14.811 Copying "/Builds/KR/main.125.com.webzen.r2m.google.obb" to local directory started.
+. 2023-08-31 11:14:14.812 Binary transfer mode selected.
+. 2023-08-31 11:14:14.812 /Builds/KR/main.125.com.webzen.r2m.google.obb의 다운로드를 시작합니다.
+. 2023-08-31 11:14:14.812 Source file timestamp is [2023-08-25T10:50:00.000Z], destination timestamp is [2023-08-25T10:50:00.000Z], will not overwrite
+. 2023-08-31 11:14:14.813 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:14.813 (EScpSkipFile) 
+> 2023-08-31 11:14:14.813 Script: exit
+. 2023-08-31 11:14:14.813 Script: Exit code: 0
+. 2023-08-31 11:14:14.814 서버로부터 접속이 끊어졌습니다.
+. 2023-08-31 11:14:14.956 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.956 WinSCP 버전 5.7.4 (빌드 5553) (OS 10.0.19045 - Windows 10 Enterprise)
+. 2023-08-31 11:14:14.956 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2023-08-31 11:14:14.956 Log level: Normal
+. 2023-08-31 11:14:14.956 Local account: WEBZEN\mssung
+. 2023-08-31 11:14:14.956 Working directory: C:\Users\mssung\OneDrive\파이썬프로젝트\r2mTest\비디오인코더
+. 2023-08-31 11:14:14.956 Process ID: 17012
+. 2023-08-31 11:14:14.956 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=574 /consoleinstance=_24284_437 "/log=upload.log" "/command" "open ftp://mssung@webzen.com:webzen@2308@nas.webzen.co.kr:23145" "cd /Builds/TW" "lcd ""C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\TW""" "get -neweronly *.apk*" "get -neweronly *.obb*" "exit" 
+. 2023-08-31 11:14:14.956 Time zone: Current: GMT+9 (대한민국 표준시), No DST
+. 2023-08-31 11:14:14.956 Login time: 2023년 8월 31일 목요일 오전 11:14:14
+. 2023-08-31 11:14:14.956 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.956 Script: Retrospectively logging previous script records:
+> 2023-08-31 11:14:14.956 Script: open ftp://mssung@webzen.com:***@nas.webzen.co.kr:23145
+. 2023-08-31 11:14:14.956 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.956 Session name: mssung@webzen.com@nas.webzen.co.kr (Ad-Hoc site)
+. 2023-08-31 11:14:14.956 Host name: nas.webzen.co.kr (Port: 23145)
+. 2023-08-31 11:14:14.956 User name: mssung@webzen.com (Password: Yes, Key file: No)
+. 2023-08-31 11:14:14.956 Transfer Protocol: FTP
+. 2023-08-31 11:14:14.956 Ping type: C, Ping interval: 30 sec; Timeout: 15 sec
+. 2023-08-31 11:14:14.956 Disable Nagle: No
+. 2023-08-31 11:14:14.956 Proxy: none
+. 2023-08-31 11:14:14.956 Send buffer: 262144
+. 2023-08-31 11:14:14.956 UTF: 2
+. 2023-08-31 11:14:14.956 FTP: FTPS: None; Passive: Yes [Force IP: A]; MLSD: A [List all: A]
+. 2023-08-31 11:14:14.956 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2023-08-31 11:14:14.956 Cache directory changes: Yes, Permanent: Yes
+. 2023-08-31 11:14:14.956 Timezone offset: 0h 0m
+. 2023-08-31 11:14:14.956 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.963 nas.webzen.co.kr:23145에 접속 중입니다.
+. 2023-08-31 11:14:14.971 nas.webzen.co.kr:23145에 접속되었습니다. 환영 메시지를 기다리는 중 입니다...
+< 2023-08-31 11:14:14.973 220 Microsoft FTP Service
+> 2023-08-31 11:14:14.973 USER mssung@webzen.com
+< 2023-08-31 11:14:14.974 331 Password required
+> 2023-08-31 11:14:14.975 PASS ***********
+< 2023-08-31 11:14:14.979 230 User logged in.
+> 2023-08-31 11:14:14.979 SYST
+< 2023-08-31 11:14:14.980 215 Windows_NT
+> 2023-08-31 11:14:14.980 FEAT
+< 2023-08-31 11:14:14.981 211-Extended features supported:
+< 2023-08-31 11:14:14.981  LANG EN*
+< 2023-08-31 11:14:14.993  UTF8
+< 2023-08-31 11:14:14.993  AUTH TLS;TLS-C;SSL;TLS-P;
+< 2023-08-31 11:14:14.993  PBSZ
+< 2023-08-31 11:14:14.993  PROT C;P;
+< 2023-08-31 11:14:14.993  CCC
+< 2023-08-31 11:14:14.993  HOST
+< 2023-08-31 11:14:14.993  SIZE
+< 2023-08-31 11:14:14.993  MDTM
+< 2023-08-31 11:14:14.993  REST STREAM
+< 2023-08-31 11:14:14.993 211 END
+> 2023-08-31 11:14:14.993 OPTS UTF8 ON
+< 2023-08-31 11:14:14.993 200 OPTS UTF8 command successful - UTF8 encoding now ON.
+. 2023-08-31 11:14:14.993 접속되었습니다.
+. 2023-08-31 11:14:14.993 --------------------------------------------------------------------------
+. 2023-08-31 11:14:14.993 Using FTP protocol.
+. 2023-08-31 11:14:14.993 Doing startup conversation with host.
+> 2023-08-31 11:14:14.994 PWD
+< 2023-08-31 11:14:14.995 257 "/" is current directory.
+. 2023-08-31 11:14:14.995 Getting current directory name.
+. 2023-08-31 11:14:14.995 Startup conversation with host finished.
+< 2023-08-31 11:14:14.995 Script: 활성화된 세션: [1] mssung@webzen.com@nas.webzen.co.kr
+> 2023-08-31 11:14:14.995 Script: cd /Builds/TW
+. 2023-08-31 11:14:14.995 Cached directory change via "/Builds/TW" to "/Builds/TW".
+. 2023-08-31 11:14:14.996 Getting current directory name.
+< 2023-08-31 11:14:14.996 Script: /Builds/TW
+> 2023-08-31 11:14:14.996 Script: lcd "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\TW"
+< 2023-08-31 11:14:14.996 Script: C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\TW
+> 2023-08-31 11:14:14.997 Script: get -neweronly *.apk*
+. 2023-08-31 11:14:14.997 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:14.997 CWD /Builds/TW/
+< 2023-08-31 11:14:15.003 250 CWD command successful.
+> 2023-08-31 11:14:15.003 PWD
+< 2023-08-31 11:14:15.004 257 "/Builds/TW" is current directory.
+> 2023-08-31 11:14:15.004 TYPE A
+< 2023-08-31 11:14:15.005 200 Type set to A.
+> 2023-08-31 11:14:15.006 PASV
+< 2023-08-31 11:14:15.007 227 Entering Passive Mode (10,103,0,1,96,98).
+> 2023-08-31 11:14:15.007 LIST -a
+. 2023-08-31 11:14:15.007 10.103.0.1:24674에 접속 중입니다.
+< 2023-08-31 11:14:15.018 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:15.018 226 Transfer complete.
+. 2023-08-31 11:14:15.019 07-13-23  04:15PM            137113281 R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:15.019 07-13-23  04:15PM             66938169 R2MClientTaiwan_Alpha_19131_230713_1606.ipa
+. 2023-08-31 11:14:15.019 07-12-23  04:09PM             65449720 R2MClientTaiwan_Live_19131_230712_1551.ipa
+. 2023-08-31 11:14:15.019 07-12-23  04:36PM            107208387 R2MClientTaiwan_Live_QA_19131_230712_1624.apk
+. 2023-08-31 11:14:15.019 07-12-23  04:34PM             64681083 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa
+. 2023-08-31 11:14:15.019 01-01-81  01:01AM             82595470 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk
+. 2023-08-31 11:14:15.019 01-01-81  01:01AM            107950448 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk
+. 2023-08-31 11:14:15.019 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:15.019 Detecting timezone difference...
+. 2023-08-31 11:14:15.019 파일 정보 검색 중...
+> 2023-08-31 11:14:15.019 PWD
+< 2023-08-31 11:14:15.020 257 "/Builds/TW" is current directory.
+> 2023-08-31 11:14:15.020 CWD /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:15.034 550 The filename, directory name, or volume label syntax is incorrect. 
+> 2023-08-31 11:14:15.034 TYPE I
+< 2023-08-31 11:14:15.035 200 Type set to I.
+> 2023-08-31 11:14:15.035 SIZE /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:15.040 213 137113281
+> 2023-08-31 11:14:15.040 MDTM /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+< 2023-08-31 11:14:15.050 213 20230713071546
+. 2023-08-31 11:14:15.050 파일 정보 검색을 성공 하였습니다.
+. 2023-08-31 11:14:15.050 No timezone difference detected using file /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:15.050 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 R2MClientTaiwan_Alpha_19131_230713_1606.apk;-;137113281;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 R2MClientTaiwan_Alpha_19131_230713_1606.ipa;-;66938169;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 R2MClientTaiwan_Live_19131_230712_1551.ipa;-;65449720;2023-07-12T07:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 R2MClientTaiwan_Live_QA_19131_230712_1624.apk;-;107208387;2023-07-12T07:36:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa;-;64681083;2023-07-12T07:34:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk;-;82595470;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk;-;107950448;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.051 Copying 4 files/directories to local directory "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\TW"
+. 2023-08-31 11:14:15.051   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:15.051   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:15.051   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2023-08-31 11:14:15.051 File: '/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk' [2023-07-13T07:15:00.000Z] [137113281]
+. 2023-08-31 11:14:15.051 Copying "/Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk" to local directory started.
+. 2023-08-31 11:14:15.051 Binary transfer mode selected.
+. 2023-08-31 11:14:15.053 /Builds/TW/R2MClientTaiwan_Alpha_19131_230713_1606.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:15.053 Source file timestamp is [2023-07-13T07:15:00.000Z], destination timestamp is [2023-07-13T07:15:00.000Z], will not overwrite
+. 2023-08-31 11:14:15.053 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:15.053 (EScpSkipFile) 
+. 2023-08-31 11:14:15.053 File: '/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk' [2023-07-12T07:36:00.000Z] [107208387]
+. 2023-08-31 11:14:15.054 Copying "/Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk" to local directory started.
+. 2023-08-31 11:14:15.054 Binary transfer mode selected.
+. 2023-08-31 11:14:15.055 /Builds/TW/R2MClientTaiwan_Live_QA_19131_230712_1624.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:15.055 Source file timestamp is [2023-07-12T07:36:00.000Z], destination timestamp is [2023-07-12T07:36:00.000Z], will not overwrite
+. 2023-08-31 11:14:15.055 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:15.055 (EScpSkipFile) 
+. 2023-08-31 11:14:15.055 File: '/Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk' [1980-12-31T16:01:00.000Z] [82595470]
+. 2023-08-31 11:14:15.055 Copying "/Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk" to local directory started.
+. 2023-08-31 11:14:15.055 Binary transfer mode selected.
+. 2023-08-31 11:14:15.056 /Builds/TW/signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:15.056 Source file timestamp is [1980-12-31T16:01:00.000Z], destination timestamp is [1980-12-31T16:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:15.056 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:15.057 (EScpSkipFile) 
+. 2023-08-31 11:14:15.057 File: '/Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk' [1980-12-31T16:01:00.000Z] [107950448]
+. 2023-08-31 11:14:15.057 Copying "/Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk" to local directory started.
+. 2023-08-31 11:14:15.057 Binary transfer mode selected.
+. 2023-08-31 11:14:15.057 /Builds/TW/signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk의 다운로드를 시작합니다.
+. 2023-08-31 11:14:15.058 Source file timestamp is [1980-12-31T16:01:00.000Z], destination timestamp is [1980-12-31T16:01:00.000Z], will not overwrite
+. 2023-08-31 11:14:15.058 다운로드가 성공하였습니다.
+* 2023-08-31 11:14:15.058 (EScpSkipFile) 
+> 2023-08-31 11:14:15.058 Script: get -neweronly *.obb*
+. 2023-08-31 11:14:15.058 디렉터리 목록을 받는 중 입니다...
+> 2023-08-31 11:14:15.058 TYPE A
+< 2023-08-31 11:14:15.060 200 Type set to A.
+> 2023-08-31 11:14:15.060 PASV
+< 2023-08-31 11:14:15.062 227 Entering Passive Mode (10,103,0,1,93,237).
+> 2023-08-31 11:14:15.062 LIST -a
+. 2023-08-31 11:14:15.062 10.103.0.1:24045에 접속 중입니다.
+< 2023-08-31 11:14:15.068 125 Data connection already open; Transfer starting.
+< 2023-08-31 11:14:15.068 226 Transfer complete.
+. 2023-08-31 11:14:15.069 07-13-23  04:15PM            137113281 R2MClientTaiwan_Alpha_19131_230713_1606.apk
+. 2023-08-31 11:14:15.069 07-13-23  04:15PM             66938169 R2MClientTaiwan_Alpha_19131_230713_1606.ipa
+. 2023-08-31 11:14:15.069 07-12-23  04:09PM             65449720 R2MClientTaiwan_Live_19131_230712_1551.ipa
+. 2023-08-31 11:14:15.080 07-12-23  04:36PM            107208387 R2MClientTaiwan_Live_QA_19131_230712_1624.apk
+. 2023-08-31 11:14:15.080 07-12-23  04:34PM             64681083 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa
+. 2023-08-31 11:14:15.080 01-01-81  01:01AM             82595470 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk
+. 2023-08-31 11:14:15.080 01-01-81  01:01AM            107950448 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk
+. 2023-08-31 11:14:15.080 디렉터리 목록 획득을 성공하였습니다.
+. 2023-08-31 11:14:15.080 ..;D;0;1899-12-30T09:00:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 R2MClientTaiwan_Alpha_19131_230713_1606.apk;-;137113281;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 R2MClientTaiwan_Alpha_19131_230713_1606.ipa;-;66938169;2023-07-13T07:15:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 R2MClientTaiwan_Live_19131_230712_1551.ipa;-;65449720;2023-07-12T07:09:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 R2MClientTaiwan_Live_QA_19131_230712_1624.apk;-;107208387;2023-07-12T07:36:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 R2MClientTaiwan_Live_QA_19131_230712_1624.ipa;-;64681083;2023-07-12T07:34:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 signed_gxs_R2MClientTaiwan_AoP_19132_230712_1551_1689146412753261.apk;-;82595470;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+. 2023-08-31 11:14:15.080 signed_gxs_R2MClientTaiwan_Live_19131_230712_1551_1689146412753151.apk;-;107950448;1980-12-31T16:01:00.000Z;"" [0];"" [0];---------;0
+< 2023-08-31 11:14:15.080 Script: '*.obb*'와 일치하는 파일이 없습니다.
+. 2023-08-31 11:14:15.080 Copying 0 files/directories to local directory "C:\Users\mssung\OneDrive - Webzen Inc\R2M_Build\TW"
+. 2023-08-31 11:14:15.080   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2023-08-31 11:14:15.080   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: Yes; InclM: ; ResumeL: 0
+. 2023-08-31 11:14:15.080   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+> 2023-08-31 11:14:15.082 Script: exit
+. 2023-08-31 11:14:15.082 Script: Exit code: 0
+. 2023-08-31 11:14:15.084 서버로부터 접속이 끊어졌습니다.
